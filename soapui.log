@@ -1,0 +1,1391 @@
+2020-07-26 23:13:43,208 WARN  [SoapUI] Missing folder [C:\Users\GunasekharKeserla\Desktop\Manipal ProLearn\API Testing\API Project Assessment\RestServiceProject\ext] for external libraries
+2020-07-26 23:13:43,457 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\GunasekharKeserla\soapui-settings.xml]
+2020-07-26 23:13:45,658 INFO  [PluginManager] Adding plugin from [C:\Users\GunasekharKeserla\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+2020-07-26 23:13:45,659 INFO  [PluginManager] Adding plugin from [C:\Users\GunasekharKeserla\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+2020-07-26 23:13:46,949 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-07-26 23:13:46,961 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-26 23:13:47,132 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-07-26 23:13:47,137 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-26 23:13:47,207 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-07-26 23:13:47,209 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-26 23:13:47,366 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-07-26 23:13:47,367 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-26 23:13:47,557 INFO  [PluginManager] Adding plugin from [C:\Users\GunasekharKeserla\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
+2020-07-26 23:13:47,732 INFO  [PluginManager] Adding plugin from [C:\Users\GunasekharKeserla\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+2020-07-26 23:13:48,356 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-07-26 23:13:48,356 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-26 23:13:48,416 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-07-26 23:13:48,426 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-26 23:13:48,563 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-07-26 23:13:48,563 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-26 23:13:48,723 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-07-26 23:13:48,728 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-26 23:13:49,053 INFO  [PluginManager] Adding plugin from [C:\Users\GunasekharKeserla\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+2020-07-26 23:13:49,438 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+2020-07-26 23:13:49,438 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-26 23:13:49,612 ERROR [SoapUI] An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+2020-07-26 23:13:49,613 ERROR [errorlog] java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+java.lang.ClassNotFoundException: com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory
+	at org.codehaus.plexus.classworlds.strategy.SelfFirstStrategy.loadClass(SelfFirstStrategy.java:50)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.unsynchronizedLoadClass(ClassRealm.java:271)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:247)
+	at org.codehaus.plexus.classworlds.realm.ClassRealm.loadClass(ClassRealm.java:239)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:113)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157)
+2020-07-26 23:13:49,778 INFO  [PluginManager] 5 plugins loaded in 4122 ms
+2020-07-26 23:13:49,782 INFO  [DefaultSoapUICore] All plugins loaded
+2020-07-26 23:13:51,186 INFO  [WsdlProject] Loaded project from [file:/C:/Users/GunasekharKeserla/Desktop/Manipal%20ProLearn/API%20Testing/API%20Project%20Assessment/RestServiceProject/REST-Project-soapui-project.xml]
+2020-07-26 23:13:51,195 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project 1]
+2020-07-26 23:13:51,198 INFO  [SoapUITestCaseRunner] Running Project [REST Project 1], runType = SEQUENTIAL
+2020-07-26 23:13:51,239 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin Token Request]
+2020-07-26 23:13:51,247 INFO  [SoapUITestCaseRunner] running step [Admin Token Request]
+2020-07-26 23:13:52,655 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:52,657 INFO  [log] PASS
+2020-07-26 23:13:52,673 INFO  [log] {"success":1,"error":[],"data":{"access_token":"f442be06378a36966e2f5bdeabd9ccaded492182","expires_in":86400,"token_type":"Bearer"}}
+2020-07-26 23:13:52,707 INFO  [log] f442be06378a36966e2f5bdeabd9ccaded492182
+2020-07-26 23:13:52,742 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:13:52,748 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin Token Request], time taken: 700ms, status: FINISHED
+2020-07-26 23:13:52,753 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin Login and Logout]
+2020-07-26 23:13:52,756 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:13:52,803 INFO  [SoapUITestCaseRunner] running step [Admin Login Request]
+2020-07-26 23:13:53,135 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:53,136 INFO  [log] PASS
+2020-07-26 23:13:53,139 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:13:53,141 INFO  [SoapUITestCaseRunner] running step [GetUserAdminDetailsRequest]
+2020-07-26 23:13:53,474 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:53,474 INFO  [log] Response Code: 200 => PASSED
+2020-07-26 23:13:53,477 INFO  [log] {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"49.206.11.18","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+2020-07-26 23:13:53,485 INFO  [log] upskills_admin
+2020-07-26 23:13:53,487 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:13:53,488 INFO  [SoapUITestCaseRunner] running step [Admin Logout Request]
+2020-07-26 23:13:53,778 INFO  [SoapUITestCaseRunner] running step [Admin Login Request -For Relogin]
+2020-07-26 23:13:54,118 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:54,118 INFO  [log] PASS
+2020-07-26 23:13:54,120 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:13:54,129 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin Login and Logout], time taken: 1152ms, status: FINISHED
+2020-07-26 23:13:54,131 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin - Add Customer and Delete Customer]
+2020-07-26 23:13:54,132 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:13:54,141 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:13:54,471 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:54,475 INFO  [log] PASS
+2020-07-26 23:13:54,476 INFO  [log] {"success":1,"error":[],"data":{"id":1394}}
+2020-07-26 23:13:54,488 INFO  [log] 1394
+2020-07-26 23:13:54,515 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:13:54,522 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:13:54,848 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:13:54,850 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-07-26 23:13:55,158 INFO  [SoapUITestCaseRunner] running step [Try to Fetch Deleted Customer By Id]
+2020-07-26 23:13:55,502 INFO  [log] HTTP status code: 404
+2020-07-26 23:13:55,502 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:13:55,505 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:13:55,512 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin - Add Customer and Delete Customer], time taken: 1105ms, status: FINISHED
+2020-07-26 23:13:55,515 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin to Add New Customer and Add Rewards Points]
+2020-07-26 23:13:55,517 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:13:55,524 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:13:55,818 INFO  [SoapUITestCaseRunner] running step [To Get Cust ID from Customer Add Response]
+2020-07-26 23:13:55,864 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:55,864 INFO  [log] PASS
+2020-07-26 23:13:55,874 INFO  [log] {"success":1,"error":[],"data":{"id":1395}}
+2020-07-26 23:13:55,874 INFO  [log] 1395
+2020-07-26 23:13:55,878 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:13:56,203 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:13:56,204 INFO  [SoapUITestCaseRunner] running step [Add Customer Reward Points]
+2020-07-26 23:13:56,495 INFO  [SoapUITestCaseRunner] running step [To Verify Status Code and Customer Reward Points]
+2020-07-26 23:13:56,866 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:56,866 INFO  [log] PASS
+2020-07-26 23:13:56,868 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1395,"customer_group_id":1,"firstname":"Sudeep","lastname":"kitcha","telephone":"1234567891","email":"Sudeep100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"700","transaction_total":"?0.00"}}
+2020-07-26 23:13:56,880 INFO  [log] 1395
+2020-07-26 23:13:56,880 INFO  [log] 700
+2020-07-26 23:13:56,889 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:13:56,890 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:13:56,891 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:13:56,897 INFO  [SoapUITestCaseRunner] running step [Customer Data Clean Up]
+2020-07-26 23:13:57,175 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin to Add New Customer and Add Rewards Points], time taken: 1456ms, status: FINISHED
+2020-07-26 23:13:57,175 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add New Product Category and get Details By Id]
+2020-07-26 23:13:57,176 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:13:57,177 INFO  [SoapUITestCaseRunner] running step [Add New Category]
+2020-07-26 23:13:57,453 INFO  [SoapUITestCaseRunner] running step [Get Category ID  from Category Add  Response]
+2020-07-26 23:13:57,470 INFO  [log] {"success":1,"error":[],"data":{"id":1654}}
+2020-07-26 23:13:57,471 INFO  [log] 1654
+2020-07-26 23:13:57,475 INFO  [SoapUITestCaseRunner] running step [Get Category Details By Id]
+2020-07-26 23:13:57,815 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:57,816 INFO  [log] PASS
+2020-07-26 23:13:57,818 INFO  [log] {"success":1,"error":[],"data":[{"category_id":1654,"name":"Electronics","description":"Electronic Goods","sort_order":0,"meta_title":"Electronics","meta_description":"","meta_keyword":"","language_id":1,"status":"1","parent_id":0,"column":1,"top":"0","category_store":["0"],"category_seo_url":[],"category_layout":[],"category_filter":[],"image":"","original_image":"","categories":[]}]}
+2020-07-26 23:13:57,839 INFO  [log] [1654]
+2020-07-26 23:13:57,845 INFO  [log] Category ID Validated Successfully...
+2020-07-26 23:13:57,846 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:13:57,852 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add New Product Category and get Details By Id], time taken: 559ms, status: FINISHED
+2020-07-26 23:13:57,861 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Data Driven]
+2020-07-26 23:13:57,863 INFO  [SoapUITestCaseRunner] running step [Admin Login and Logout -DD]
+2020-07-26 23:13:58,399 INFO  [log] The Total number of rows are 1
+2020-07-26 23:13:58,401 INFO  [log] The Total number of columns are 2
+2020-07-26 23:13:58,414 INFO  [log] upskills_admin
+2020-07-26 23:13:58,425 INFO  [log] Talent4$$
+2020-07-26 23:13:58,447 INFO  [log] uname is upskills_admin
+2020-07-26 23:13:58,448 INFO  [log] password is Talent4$$
+2020-07-26 23:13:58,471 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin Login and Logout]
+2020-07-26 23:13:58,475 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:13:58,476 INFO  [SoapUITestCaseRunner] running step [GetUserAdminDetailsRequest]
+2020-07-26 23:13:58,762 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:58,763 INFO  [log] Response Code: 200 => PASSED
+2020-07-26 23:13:58,765 INFO  [log] {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"49.206.11.18","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+2020-07-26 23:13:58,776 INFO  [log] upskills_admin
+2020-07-26 23:13:58,783 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:13:58,784 INFO  [SoapUITestCaseRunner] running step [Admin Logout Request]
+2020-07-26 23:13:59,064 INFO  [SoapUITestCaseRunner] running step [Admin Login Request -For Relogin]
+2020-07-26 23:13:59,347 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:59,348 INFO  [log] PASS
+2020-07-26 23:13:59,357 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:13:59,360 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin Login and Logout], time taken: 803ms, status: FINISHED
+2020-07-26 23:13:59,367 INFO  [log] FINISHED
+2020-07-26 23:13:59,380 INFO  [log] Number of test Step got executed 4
+2020-07-26 23:13:59,381 INFO  [SoapUITestCaseRunner] running step [Admin - Add Customer and Delete Customer - DD]
+2020-07-26 23:13:59,666 INFO  [log] The Total number of rows are 10
+2020-07-26 23:13:59,668 INFO  [log] The Total number of columns are 6
+2020-07-26 23:13:59,671 INFO  [log] Gunasekhar 
+2020-07-26 23:13:59,671 INFO  [log] Keserla10
+2020-07-26 23:13:59,678 INFO  [log] gunasekhar102@gmail.com
+2020-07-26 23:13:59,691 INFO  [log] Secret123
+2020-07-26 23:13:59,693 INFO  [log] Secret123
+2020-07-26 23:13:59,710 INFO  [log] 1234567898
+2020-07-26 23:13:59,713 INFO  [log] firstname is Gunasekhar 
+2020-07-26 23:13:59,715 INFO  [log] lastname is Keserla10
+2020-07-26 23:13:59,722 INFO  [log] email is gunasekhar102@gmail.com
+2020-07-26 23:13:59,725 INFO  [log] password is Secret123
+2020-07-26 23:13:59,726 INFO  [log] confirm is Secret123
+2020-07-26 23:13:59,734 INFO  [log] telephone is 1234567898
+2020-07-26 23:13:59,739 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin - Add Customer and Delete Customer]
+2020-07-26 23:13:59,740 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:13:59,747 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:00,040 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:00,044 INFO  [log] PASS
+2020-07-26 23:14:00,045 INFO  [log] {"success":1,"error":[],"data":{"id":1396}}
+2020-07-26 23:14:00,056 INFO  [log] 1396
+2020-07-26 23:14:00,058 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:00,063 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:00,372 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:00,373 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-07-26 23:14:00,663 INFO  [SoapUITestCaseRunner] running step [Try to Fetch Deleted Customer By Id]
+2020-07-26 23:14:00,977 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:00,978 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:00,981 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:00,992 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin - Add Customer and Delete Customer], time taken: 1126ms, status: FINISHED
+2020-07-26 23:14:01,009 INFO  [log] FINISHED
+2020-07-26 23:14:01,013 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:01,016 INFO  [log] Pranav
+2020-07-26 23:14:01,024 INFO  [log] Keserla
+2020-07-26 23:14:01,025 INFO  [log] pranav102@gmail.com
+2020-07-26 23:14:01,032 INFO  [log] Secret123
+2020-07-26 23:14:01,038 INFO  [log] Secret123
+2020-07-26 23:14:01,045 INFO  [log] 1234567898
+2020-07-26 23:14:01,048 INFO  [log] firstname is Pranav
+2020-07-26 23:14:01,055 INFO  [log] lastname is Keserla
+2020-07-26 23:14:01,056 INFO  [log] email is pranav102@gmail.com
+2020-07-26 23:14:01,059 INFO  [log] password is Secret123
+2020-07-26 23:14:01,067 INFO  [log] confirm is Secret123
+2020-07-26 23:14:01,070 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:01,070 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin - Add Customer and Delete Customer]
+2020-07-26 23:14:01,077 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:01,078 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:01,386 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:01,392 INFO  [log] PASS
+2020-07-26 23:14:01,393 INFO  [log] {"success":1,"error":[],"data":{"id":1397}}
+2020-07-26 23:14:01,395 INFO  [log] 1397
+2020-07-26 23:14:01,405 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:01,408 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:01,694 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:01,694 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-07-26 23:14:01,970 INFO  [SoapUITestCaseRunner] running step [Try to Fetch Deleted Customer By Id]
+2020-07-26 23:14:02,251 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:02,255 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:02,257 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:02,271 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin - Add Customer and Delete Customer], time taken: 1103ms, status: FINISHED
+2020-07-26 23:14:02,276 INFO  [log] FINISHED
+2020-07-26 23:14:02,276 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:02,277 INFO  [log] Shrivas
+2020-07-26 23:14:02,278 INFO  [log] Keserla
+2020-07-26 23:14:02,279 INFO  [log] shrivas102@gmail.com
+2020-07-26 23:14:02,280 INFO  [log] Secret123
+2020-07-26 23:14:02,280 INFO  [log] Secret123
+2020-07-26 23:14:02,283 INFO  [log] 1234567898
+2020-07-26 23:14:02,290 INFO  [log] firstname is Shrivas
+2020-07-26 23:14:02,297 INFO  [log] lastname is Keserla
+2020-07-26 23:14:02,301 INFO  [log] email is shrivas102@gmail.com
+2020-07-26 23:14:02,303 INFO  [log] password is Secret123
+2020-07-26 23:14:02,303 INFO  [log] confirm is Secret123
+2020-07-26 23:14:02,311 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:02,314 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin - Add Customer and Delete Customer]
+2020-07-26 23:14:02,325 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:02,329 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:02,616 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:02,617 INFO  [log] PASS
+2020-07-26 23:14:02,620 INFO  [log] {"success":1,"error":[],"data":{"id":1398}}
+2020-07-26 23:14:02,625 INFO  [log] 1398
+2020-07-26 23:14:02,627 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:02,634 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:02,918 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:02,918 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-07-26 23:14:03,202 INFO  [SoapUITestCaseRunner] running step [Try to Fetch Deleted Customer By Id]
+2020-07-26 23:14:03,469 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:03,469 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:03,473 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:03,475 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin - Add Customer and Delete Customer], time taken: 1078ms, status: FINISHED
+2020-07-26 23:14:03,476 INFO  [log] FINISHED
+2020-07-26 23:14:03,483 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:03,487 INFO  [log] sk
+2020-07-26 23:14:03,488 INFO  [log] Gaddam
+2020-07-26 23:14:03,495 INFO  [log] gsk102@gmail.com
+2020-07-26 23:14:03,504 INFO  [log] Secret123
+2020-07-26 23:14:03,506 INFO  [log] Secret123
+2020-07-26 23:14:03,508 INFO  [log] 1234567898
+2020-07-26 23:14:03,509 INFO  [log] firstname is sk
+2020-07-26 23:14:03,510 INFO  [log] lastname is Gaddam
+2020-07-26 23:14:03,510 INFO  [log] email is gsk102@gmail.com
+2020-07-26 23:14:03,511 INFO  [log] password is Secret123
+2020-07-26 23:14:03,512 INFO  [log] confirm is Secret123
+2020-07-26 23:14:03,518 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:03,524 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin - Add Customer and Delete Customer]
+2020-07-26 23:14:03,526 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:03,531 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:03,825 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:03,825 INFO  [log] PASS
+2020-07-26 23:14:03,830 INFO  [log] {"success":1,"error":[],"data":{"id":1399}}
+2020-07-26 23:14:03,837 INFO  [log] 1399
+2020-07-26 23:14:03,841 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:03,848 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:04,138 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:04,146 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-07-26 23:14:04,433 INFO  [SoapUITestCaseRunner] running step [Try to Fetch Deleted Customer By Id]
+2020-07-26 23:14:04,716 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:04,717 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:04,719 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:04,726 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin - Add Customer and Delete Customer], time taken: 1090ms, status: FINISHED
+2020-07-26 23:14:04,733 INFO  [log] FINISHED
+2020-07-26 23:14:04,742 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:04,743 INFO  [log] Chandrasekhar
+2020-07-26 23:14:04,751 INFO  [log] Keserla
+2020-07-26 23:14:04,755 INFO  [log] chandrasekhar102@gmail.com
+2020-07-26 23:14:04,755 INFO  [log] Secret123
+2020-07-26 23:14:04,762 INFO  [log] Secret123
+2020-07-26 23:14:04,763 INFO  [log] 1234567898
+2020-07-26 23:14:04,773 INFO  [log] firstname is Chandrasekhar
+2020-07-26 23:14:04,773 INFO  [log] lastname is Keserla
+2020-07-26 23:14:04,774 INFO  [log] email is chandrasekhar102@gmail.com
+2020-07-26 23:14:04,774 INFO  [log] password is Secret123
+2020-07-26 23:14:04,775 INFO  [log] confirm is Secret123
+2020-07-26 23:14:04,778 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:04,787 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin - Add Customer and Delete Customer]
+2020-07-26 23:14:04,789 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:04,796 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:05,086 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:05,087 INFO  [log] PASS
+2020-07-26 23:14:05,089 INFO  [log] {"success":1,"error":[],"data":{"id":1400}}
+2020-07-26 23:14:05,096 INFO  [log] 1400
+2020-07-26 23:14:05,107 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:05,107 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:05,390 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:05,393 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-07-26 23:14:05,683 INFO  [SoapUITestCaseRunner] running step [Try to Fetch Deleted Customer By Id]
+2020-07-26 23:14:05,961 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:05,965 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:05,973 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:05,978 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin - Add Customer and Delete Customer], time taken: 1075ms, status: FINISHED
+2020-07-26 23:14:05,988 INFO  [log] FINISHED
+2020-07-26 23:14:05,988 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:05,996 INFO  [log] Rajasekhar
+2020-07-26 23:14:06,000 INFO  [log] keserla
+2020-07-26 23:14:06,001 INFO  [log] rajasekhar102@gmail.com
+2020-07-26 23:14:06,008 INFO  [log] Secret123
+2020-07-26 23:14:06,008 INFO  [log] Secret123
+2020-07-26 23:14:06,009 INFO  [log] 1234567898
+2020-07-26 23:14:06,013 INFO  [log] firstname is Rajasekhar
+2020-07-26 23:14:06,021 INFO  [log] lastname is keserla
+2020-07-26 23:14:06,024 INFO  [log] email is rajasekhar102@gmail.com
+2020-07-26 23:14:06,031 INFO  [log] password is Secret123
+2020-07-26 23:14:06,034 INFO  [log] confirm is Secret123
+2020-07-26 23:14:06,036 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:06,044 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin - Add Customer and Delete Customer]
+2020-07-26 23:14:06,044 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:06,045 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:06,345 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:06,347 INFO  [log] PASS
+2020-07-26 23:14:06,355 INFO  [log] {"success":1,"error":[],"data":{"id":1401}}
+2020-07-26 23:14:06,356 INFO  [log] 1401
+2020-07-26 23:14:06,360 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:06,369 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:06,647 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:06,648 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-07-26 23:14:06,936 INFO  [SoapUITestCaseRunner] running step [Try to Fetch Deleted Customer By Id]
+2020-07-26 23:14:07,230 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:07,232 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:07,241 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:07,243 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin - Add Customer and Delete Customer], time taken: 1103ms, status: FINISHED
+2020-07-26 23:14:07,244 INFO  [log] FINISHED
+2020-07-26 23:14:07,253 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:07,256 INFO  [log] Vaishnavi
+2020-07-26 23:14:07,263 INFO  [log] Keserla
+2020-07-26 23:14:07,265 INFO  [log] vaishu102@gmail.com
+2020-07-26 23:14:07,269 INFO  [log] Secret123
+2020-07-26 23:14:07,269 INFO  [log] Secret123
+2020-07-26 23:14:07,276 INFO  [log] 1234567898
+2020-07-26 23:14:07,277 INFO  [log] firstname is Vaishnavi
+2020-07-26 23:14:07,283 INFO  [log] lastname is Keserla
+2020-07-26 23:14:07,289 INFO  [log] email is vaishu102@gmail.com
+2020-07-26 23:14:07,290 INFO  [log] password is Secret123
+2020-07-26 23:14:07,293 INFO  [log] confirm is Secret123
+2020-07-26 23:14:07,302 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:07,305 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin - Add Customer and Delete Customer]
+2020-07-26 23:14:07,312 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:07,312 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:07,605 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:07,607 INFO  [log] PASS
+2020-07-26 23:14:07,611 INFO  [log] {"success":1,"error":[],"data":{"id":1402}}
+2020-07-26 23:14:07,620 INFO  [log] 1402
+2020-07-26 23:14:07,624 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:07,625 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:07,914 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:07,916 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-07-26 23:14:08,393 INFO  [SoapUITestCaseRunner] running step [Try to Fetch Deleted Customer By Id]
+2020-07-26 23:14:08,659 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:08,659 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:08,660 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:08,661 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin - Add Customer and Delete Customer], time taken: 1258ms, status: FINISHED
+2020-07-26 23:14:08,661 INFO  [log] FINISHED
+2020-07-26 23:14:08,662 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:08,662 INFO  [log] Devarajulu
+2020-07-26 23:14:08,663 INFO  [log] Avula
+2020-07-26 23:14:08,663 INFO  [log] deva102@gmail.com
+2020-07-26 23:14:08,664 INFO  [log] Secret123
+2020-07-26 23:14:08,665 INFO  [log] Secret123
+2020-07-26 23:14:08,670 INFO  [log] 1234567898
+2020-07-26 23:14:08,676 INFO  [log] firstname is Devarajulu
+2020-07-26 23:14:08,676 INFO  [log] lastname is Avula
+2020-07-26 23:14:08,676 INFO  [log] email is deva102@gmail.com
+2020-07-26 23:14:08,677 INFO  [log] password is Secret123
+2020-07-26 23:14:08,677 INFO  [log] confirm is Secret123
+2020-07-26 23:14:08,678 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:08,679 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin - Add Customer and Delete Customer]
+2020-07-26 23:14:08,685 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:08,688 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:08,949 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:08,949 INFO  [log] PASS
+2020-07-26 23:14:08,950 INFO  [log] {"success":1,"error":[],"data":{"id":1403}}
+2020-07-26 23:14:08,951 INFO  [log] 1403
+2020-07-26 23:14:08,951 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:08,951 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:09,224 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:09,227 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-07-26 23:14:09,486 INFO  [SoapUITestCaseRunner] running step [Try to Fetch Deleted Customer By Id]
+2020-07-26 23:14:09,752 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:09,754 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:09,756 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:09,763 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin - Add Customer and Delete Customer], time taken: 1038ms, status: FINISHED
+2020-07-26 23:14:09,768 INFO  [log] FINISHED
+2020-07-26 23:14:09,769 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:09,776 INFO  [log] Suresh
+2020-07-26 23:14:09,777 INFO  [log] Sajja
+2020-07-26 23:14:09,787 INFO  [log] suresh102@gmail.com
+2020-07-26 23:14:09,788 INFO  [log] Secret123
+2020-07-26 23:14:09,790 INFO  [log] Secret123
+2020-07-26 23:14:09,797 INFO  [log] 1234567898
+2020-07-26 23:14:09,799 INFO  [log] firstname is Suresh
+2020-07-26 23:14:09,801 INFO  [log] lastname is Sajja
+2020-07-26 23:14:09,809 INFO  [log] email is suresh102@gmail.com
+2020-07-26 23:14:09,809 INFO  [log] password is Secret123
+2020-07-26 23:14:09,810 INFO  [log] confirm is Secret123
+2020-07-26 23:14:09,813 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:09,822 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin - Add Customer and Delete Customer]
+2020-07-26 23:14:09,824 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:09,831 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:10,115 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:10,119 INFO  [log] PASS
+2020-07-26 23:14:10,120 INFO  [log] {"success":1,"error":[],"data":{"id":1404}}
+2020-07-26 23:14:10,127 INFO  [log] 1404
+2020-07-26 23:14:10,137 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:10,140 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:10,426 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:10,427 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-07-26 23:14:10,712 INFO  [SoapUITestCaseRunner] running step [Try to Fetch Deleted Customer By Id]
+2020-07-26 23:14:10,989 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:10,994 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:10,997 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:11,005 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin - Add Customer and Delete Customer], time taken: 1082ms, status: FINISHED
+2020-07-26 23:14:11,008 INFO  [log] FINISHED
+2020-07-26 23:14:11,017 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:11,019 INFO  [log] Ganesh
+2020-07-26 23:14:11,027 INFO  [log] Arumugam
+2020-07-26 23:14:11,028 INFO  [log] ganesh102@gmail.com
+2020-07-26 23:14:11,038 INFO  [log] Secret123
+2020-07-26 23:14:11,039 INFO  [log] Secret123
+2020-07-26 23:14:11,042 INFO  [log] 1234567898
+2020-07-26 23:14:11,052 INFO  [log] firstname is Ganesh
+2020-07-26 23:14:11,055 INFO  [log] lastname is Arumugam
+2020-07-26 23:14:11,061 INFO  [log] email is ganesh102@gmail.com
+2020-07-26 23:14:11,063 INFO  [log] password is Secret123
+2020-07-26 23:14:11,067 INFO  [log] confirm is Secret123
+2020-07-26 23:14:11,068 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:11,075 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin - Add Customer and Delete Customer]
+2020-07-26 23:14:11,076 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:11,088 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:11,386 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:11,387 INFO  [log] PASS
+2020-07-26 23:14:11,390 INFO  [log] {"success":1,"error":[],"data":{"id":1405}}
+2020-07-26 23:14:11,391 INFO  [log] 1405
+2020-07-26 23:14:11,395 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:11,395 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:11,692 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:11,695 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-07-26 23:14:11,982 INFO  [SoapUITestCaseRunner] running step [Try to Fetch Deleted Customer By Id]
+2020-07-26 23:14:12,278 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:12,280 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:12,289 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:12,294 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin - Add Customer and Delete Customer], time taken: 1100ms, status: FINISHED
+2020-07-26 23:14:12,295 INFO  [log] FINISHED
+2020-07-26 23:14:12,304 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:12,307 INFO  [SoapUITestCaseRunner] running step [Add New Customer and Add Rewards Points - DD]
+2020-07-26 23:14:12,573 INFO  [log] The Total number of rows are 10
+2020-07-26 23:14:12,581 INFO  [log] The Total number of columns are 7
+2020-07-26 23:14:12,584 INFO  [log] Gunasekhar 
+2020-07-26 23:14:12,591 INFO  [log] Keserla10
+2020-07-26 23:14:12,591 INFO  [log] gunasekhar100@gmail.com
+2020-07-26 23:14:12,592 INFO  [log] Secret123
+2020-07-26 23:14:12,596 INFO  [log] Secret123
+2020-07-26 23:14:12,604 INFO  [log] 1234567898
+2020-07-26 23:14:12,609 INFO  [log] 100
+2020-07-26 23:14:12,612 INFO  [log] firstname is Gunasekhar 
+2020-07-26 23:14:12,615 INFO  [log] lastname is Keserla10
+2020-07-26 23:14:12,619 INFO  [log] email is gunasekhar100@gmail.com
+2020-07-26 23:14:12,619 INFO  [log] password is Secret123
+2020-07-26 23:14:12,627 INFO  [log] confirm is Secret123
+2020-07-26 23:14:12,638 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:12,640 INFO  [log] reward points are 100
+2020-07-26 23:14:12,650 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin to Add New Customer and Add Rewards Points]
+2020-07-26 23:14:12,657 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:12,661 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:12,953 INFO  [SoapUITestCaseRunner] running step [To Get Cust ID from Customer Add Response]
+2020-07-26 23:14:12,957 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:12,959 INFO  [log] PASS
+2020-07-26 23:14:12,968 INFO  [log] {"success":1,"error":[],"data":{"id":1406}}
+2020-07-26 23:14:12,976 INFO  [log] 1406
+2020-07-26 23:14:12,988 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:13,402 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:13,407 INFO  [SoapUITestCaseRunner] running step [Add Customer Reward Points]
+2020-07-26 23:14:13,844 INFO  [SoapUITestCaseRunner] running step [To Verify Status Code and Customer Reward Points]
+2020-07-26 23:14:14,143 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:14,144 INFO  [log] PASS
+2020-07-26 23:14:14,154 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1406,"customer_group_id":1,"firstname":"Gunasekhar ","lastname":"Keserla10","telephone":"1234567898","email":"gunasekhar100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"100","transaction_total":"?0.00"}}
+2020-07-26 23:14:14,174 INFO  [log] 1406
+2020-07-26 23:14:14,175 INFO  [log] 100
+2020-07-26 23:14:14,176 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:14,178 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:14,179 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:14,184 INFO  [SoapUITestCaseRunner] running step [Customer Data Clean Up]
+2020-07-26 23:14:14,479 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin to Add New Customer and Add Rewards Points], time taken: 1652ms, status: FINISHED
+2020-07-26 23:14:14,481 INFO  [log] FINISHED
+2020-07-26 23:14:14,488 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:14,492 INFO  [log] Pranav
+2020-07-26 23:14:14,501 INFO  [log] Keserla
+2020-07-26 23:14:14,503 INFO  [log] pranav100@gmail.com
+2020-07-26 23:14:14,510 INFO  [log] Secret123
+2020-07-26 23:14:14,511 INFO  [log] Secret123
+2020-07-26 23:14:14,521 INFO  [log] 1234567898
+2020-07-26 23:14:14,522 INFO  [log] 200
+2020-07-26 23:14:14,523 INFO  [log] firstname is Pranav
+2020-07-26 23:14:14,524 INFO  [log] lastname is Keserla
+2020-07-26 23:14:14,527 INFO  [log] email is pranav100@gmail.com
+2020-07-26 23:14:14,528 INFO  [log] password is Secret123
+2020-07-26 23:14:14,537 INFO  [log] confirm is Secret123
+2020-07-26 23:14:14,540 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:14,547 INFO  [log] reward points are 200
+2020-07-26 23:14:14,551 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin to Add New Customer and Add Rewards Points]
+2020-07-26 23:14:14,551 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:14,558 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:14,853 INFO  [SoapUITestCaseRunner] running step [To Get Cust ID from Customer Add Response]
+2020-07-26 23:14:14,855 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:14,858 INFO  [log] PASS
+2020-07-26 23:14:14,868 INFO  [log] {"success":1,"error":[],"data":{"id":1407}}
+2020-07-26 23:14:14,872 INFO  [log] 1407
+2020-07-26 23:14:14,878 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:15,176 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:15,180 INFO  [SoapUITestCaseRunner] running step [Add Customer Reward Points]
+2020-07-26 23:14:15,488 INFO  [SoapUITestCaseRunner] running step [To Verify Status Code and Customer Reward Points]
+2020-07-26 23:14:15,769 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:15,771 INFO  [log] PASS
+2020-07-26 23:14:15,772 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1407,"customer_group_id":1,"firstname":"Pranav","lastname":"Keserla","telephone":"1234567898","email":"pranav100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"200","transaction_total":"?0.00"}}
+2020-07-26 23:14:15,785 INFO  [log] 1407
+2020-07-26 23:14:15,786 INFO  [log] 200
+2020-07-26 23:14:15,793 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:15,793 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:15,794 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:15,804 INFO  [SoapUITestCaseRunner] running step [Customer Data Clean Up]
+2020-07-26 23:14:16,091 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin to Add New Customer and Add Rewards Points], time taken: 1418ms, status: FINISHED
+2020-07-26 23:14:16,094 INFO  [log] FINISHED
+2020-07-26 23:14:16,105 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:16,106 INFO  [log] Shrivas
+2020-07-26 23:14:16,116 INFO  [log] Keserla
+2020-07-26 23:14:16,118 INFO  [log] shrivas100@gmail.com
+2020-07-26 23:14:16,125 INFO  [log] Secret123
+2020-07-26 23:14:16,126 INFO  [log] Secret123
+2020-07-26 23:14:16,135 INFO  [log] 1234567898
+2020-07-26 23:14:16,138 INFO  [log] 300
+2020-07-26 23:14:16,140 INFO  [log] firstname is Shrivas
+2020-07-26 23:14:16,146 INFO  [log] lastname is Keserla
+2020-07-26 23:14:16,148 INFO  [log] email is shrivas100@gmail.com
+2020-07-26 23:14:16,150 INFO  [log] password is Secret123
+2020-07-26 23:14:16,157 INFO  [log] confirm is Secret123
+2020-07-26 23:14:16,158 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:16,158 INFO  [log] reward points are 300
+2020-07-26 23:14:16,159 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin to Add New Customer and Add Rewards Points]
+2020-07-26 23:14:16,170 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:16,173 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:16,457 INFO  [SoapUITestCaseRunner] running step [To Get Cust ID from Customer Add Response]
+2020-07-26 23:14:16,461 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:16,470 INFO  [log] PASS
+2020-07-26 23:14:16,475 INFO  [log] {"success":1,"error":[],"data":{"id":1408}}
+2020-07-26 23:14:16,483 INFO  [log] 1408
+2020-07-26 23:14:16,486 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:16,773 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:16,792 INFO  [SoapUITestCaseRunner] running step [Add Customer Reward Points]
+2020-07-26 23:14:17,085 INFO  [SoapUITestCaseRunner] running step [To Verify Status Code and Customer Reward Points]
+2020-07-26 23:14:17,373 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:17,374 INFO  [log] PASS
+2020-07-26 23:14:17,377 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1408,"customer_group_id":1,"firstname":"Shrivas","lastname":"Keserla","telephone":"1234567898","email":"shrivas100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"300","transaction_total":"?0.00"}}
+2020-07-26 23:14:17,395 INFO  [log] 1408
+2020-07-26 23:14:17,400 INFO  [log] 300
+2020-07-26 23:14:17,401 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:17,408 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:17,412 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:17,421 INFO  [SoapUITestCaseRunner] running step [Customer Data Clean Up]
+2020-07-26 23:14:17,713 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin to Add New Customer and Add Rewards Points], time taken: 1388ms, status: FINISHED
+2020-07-26 23:14:17,717 INFO  [log] FINISHED
+2020-07-26 23:14:17,721 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:17,722 INFO  [log] sk
+2020-07-26 23:14:17,724 INFO  [log] Gaddam
+2020-07-26 23:14:17,737 INFO  [log] gsk100@gmail.com
+2020-07-26 23:14:17,739 INFO  [log] Secret123
+2020-07-26 23:14:17,749 INFO  [log] Secret123
+2020-07-26 23:14:17,751 INFO  [log] 1234567898
+2020-07-26 23:14:17,758 INFO  [log] 400
+2020-07-26 23:14:17,760 INFO  [log] firstname is sk
+2020-07-26 23:14:17,764 INFO  [log] lastname is Gaddam
+2020-07-26 23:14:17,770 INFO  [log] email is gsk100@gmail.com
+2020-07-26 23:14:17,771 INFO  [log] password is Secret123
+2020-07-26 23:14:17,772 INFO  [log] confirm is Secret123
+2020-07-26 23:14:17,774 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:17,784 INFO  [log] reward points are 400
+2020-07-26 23:14:17,787 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin to Add New Customer and Add Rewards Points]
+2020-07-26 23:14:17,793 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:17,794 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:18,079 INFO  [SoapUITestCaseRunner] running step [To Get Cust ID from Customer Add Response]
+2020-07-26 23:14:18,087 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:18,087 INFO  [log] PASS
+2020-07-26 23:14:18,089 INFO  [log] {"success":1,"error":[],"data":{"id":1409}}
+2020-07-26 23:14:18,090 INFO  [log] 1409
+2020-07-26 23:14:18,092 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:18,365 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:18,365 INFO  [SoapUITestCaseRunner] running step [Add Customer Reward Points]
+2020-07-26 23:14:18,638 INFO  [SoapUITestCaseRunner] running step [To Verify Status Code and Customer Reward Points]
+2020-07-26 23:14:18,918 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:18,919 INFO  [log] PASS
+2020-07-26 23:14:18,925 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1409,"customer_group_id":1,"firstname":"sk","lastname":"Gaddam","telephone":"1234567898","email":"gsk100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"400","transaction_total":"?0.00"}}
+2020-07-26 23:14:18,938 INFO  [log] 1409
+2020-07-26 23:14:18,944 INFO  [log] 400
+2020-07-26 23:14:18,949 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:18,956 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:18,957 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:18,959 INFO  [SoapUITestCaseRunner] running step [Customer Data Clean Up]
+2020-07-26 23:14:19,252 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin to Add New Customer and Add Rewards Points], time taken: 1350ms, status: FINISHED
+2020-07-26 23:14:19,252 INFO  [log] FINISHED
+2020-07-26 23:14:19,255 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:19,266 INFO  [log] Chandrasekhar
+2020-07-26 23:14:19,266 INFO  [log] Keserla
+2020-07-26 23:14:19,267 INFO  [log] chandrasekhar100@gmail.com
+2020-07-26 23:14:19,274 INFO  [log] Secret123
+2020-07-26 23:14:19,277 INFO  [log] Secret123
+2020-07-26 23:14:19,286 INFO  [log] 1234567898
+2020-07-26 23:14:19,289 INFO  [log] 500
+2020-07-26 23:14:19,290 INFO  [log] firstname is Chandrasekhar
+2020-07-26 23:14:19,299 INFO  [log] lastname is Keserla
+2020-07-26 23:14:19,301 INFO  [log] email is chandrasekhar100@gmail.com
+2020-07-26 23:14:19,308 INFO  [log] password is Secret123
+2020-07-26 23:14:19,308 INFO  [log] confirm is Secret123
+2020-07-26 23:14:19,311 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:19,319 INFO  [log] reward points are 500
+2020-07-26 23:14:19,321 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin to Add New Customer and Add Rewards Points]
+2020-07-26 23:14:19,323 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:19,332 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:19,619 INFO  [SoapUITestCaseRunner] running step [To Get Cust ID from Customer Add Response]
+2020-07-26 23:14:19,621 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:19,622 INFO  [log] PASS
+2020-07-26 23:14:19,630 INFO  [log] {"success":1,"error":[],"data":{"id":1410}}
+2020-07-26 23:14:19,634 INFO  [log] 1410
+2020-07-26 23:14:19,641 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:19,914 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:19,914 INFO  [SoapUITestCaseRunner] running step [Add Customer Reward Points]
+2020-07-26 23:14:20,187 INFO  [SoapUITestCaseRunner] running step [To Verify Status Code and Customer Reward Points]
+2020-07-26 23:14:20,474 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:20,476 INFO  [log] PASS
+2020-07-26 23:14:20,481 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1410,"customer_group_id":1,"firstname":"Chandrasekhar","lastname":"Keserla","telephone":"1234567898","email":"chandrasekhar100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"500","transaction_total":"?0.00"}}
+2020-07-26 23:14:20,498 INFO  [log] 1410
+2020-07-26 23:14:20,501 INFO  [log] 500
+2020-07-26 23:14:20,508 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:20,509 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:20,520 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:20,522 INFO  [SoapUITestCaseRunner] running step [Customer Data Clean Up]
+2020-07-26 23:14:20,815 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin to Add New Customer and Add Rewards Points], time taken: 1372ms, status: FINISHED
+2020-07-26 23:14:20,817 INFO  [log] FINISHED
+2020-07-26 23:14:20,819 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:20,820 INFO  [log] Rajasekhar
+2020-07-26 23:14:20,821 INFO  [log] keserla
+2020-07-26 23:14:20,824 INFO  [log] rajasekhar100@gmail.com
+2020-07-26 23:14:20,834 INFO  [log] Secret123
+2020-07-26 23:14:20,836 INFO  [log] Secret123
+2020-07-26 23:14:20,843 INFO  [log] 1234567898
+2020-07-26 23:14:20,844 INFO  [log] 600
+2020-07-26 23:14:20,845 INFO  [log] firstname is Rajasekhar
+2020-07-26 23:14:20,848 INFO  [log] lastname is keserla
+2020-07-26 23:14:20,849 INFO  [log] email is rajasekhar100@gmail.com
+2020-07-26 23:14:20,857 INFO  [log] password is Secret123
+2020-07-26 23:14:20,857 INFO  [log] confirm is Secret123
+2020-07-26 23:14:20,857 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:20,867 INFO  [log] reward points are 600
+2020-07-26 23:14:20,868 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin to Add New Customer and Add Rewards Points]
+2020-07-26 23:14:20,871 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:20,878 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:21,166 INFO  [SoapUITestCaseRunner] running step [To Get Cust ID from Customer Add Response]
+2020-07-26 23:14:21,169 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:21,171 INFO  [log] PASS
+2020-07-26 23:14:21,178 INFO  [log] {"success":1,"error":[],"data":{"id":1411}}
+2020-07-26 23:14:21,184 INFO  [log] 1411
+2020-07-26 23:14:21,186 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:21,482 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:21,483 INFO  [SoapUITestCaseRunner] running step [Add Customer Reward Points]
+2020-07-26 23:14:21,758 INFO  [SoapUITestCaseRunner] running step [To Verify Status Code and Customer Reward Points]
+2020-07-26 23:14:22,038 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:22,038 INFO  [log] PASS
+2020-07-26 23:14:22,040 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1411,"customer_group_id":1,"firstname":"Rajasekhar","lastname":"keserla","telephone":"1234567898","email":"rajasekhar100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"600","transaction_total":"?0.00"}}
+2020-07-26 23:14:22,058 INFO  [log] 1411
+2020-07-26 23:14:22,059 INFO  [log] 600
+2020-07-26 23:14:22,070 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:22,070 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:22,071 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:22,072 INFO  [SoapUITestCaseRunner] running step [Customer Data Clean Up]
+2020-07-26 23:14:22,918 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin to Add New Customer and Add Rewards Points], time taken: 1934ms, status: FINISHED
+2020-07-26 23:14:22,923 INFO  [log] FINISHED
+2020-07-26 23:14:22,924 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:22,934 INFO  [log] Vaishnavi
+2020-07-26 23:14:22,937 INFO  [log] Keserla
+2020-07-26 23:14:22,944 INFO  [log] vaishu100@gmail.com
+2020-07-26 23:14:22,945 INFO  [log] Secret123
+2020-07-26 23:14:22,950 INFO  [log] Secret123
+2020-07-26 23:14:22,957 INFO  [log] 1234567898
+2020-07-26 23:14:22,958 INFO  [log] 700
+2020-07-26 23:14:22,961 INFO  [log] firstname is Vaishnavi
+2020-07-26 23:14:22,968 INFO  [log] lastname is Keserla
+2020-07-26 23:14:22,969 INFO  [log] email is vaishu100@gmail.com
+2020-07-26 23:14:22,972 INFO  [log] password is Secret123
+2020-07-26 23:14:22,981 INFO  [log] confirm is Secret123
+2020-07-26 23:14:22,983 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:22,990 INFO  [log] reward points are 700
+2020-07-26 23:14:22,991 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin to Add New Customer and Add Rewards Points]
+2020-07-26 23:14:22,993 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:23,001 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:23,770 INFO  [SoapUITestCaseRunner] running step [To Get Cust ID from Customer Add Response]
+2020-07-26 23:14:23,774 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:23,776 INFO  [log] PASS
+2020-07-26 23:14:23,785 INFO  [log] {"success":1,"error":[],"data":{"id":1412}}
+2020-07-26 23:14:23,789 INFO  [log] 1412
+2020-07-26 23:14:23,796 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:24,072 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:24,076 INFO  [SoapUITestCaseRunner] running step [Add Customer Reward Points]
+2020-07-26 23:14:24,366 INFO  [SoapUITestCaseRunner] running step [To Verify Status Code and Customer Reward Points]
+2020-07-26 23:14:24,652 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:24,656 INFO  [log] PASS
+2020-07-26 23:14:24,657 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1412,"customer_group_id":1,"firstname":"Vaishnavi","lastname":"Keserla","telephone":"1234567898","email":"vaishu100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"700","transaction_total":"?0.00"}}
+2020-07-26 23:14:24,676 INFO  [log] 1412
+2020-07-26 23:14:24,686 INFO  [log] 700
+2020-07-26 23:14:24,687 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:24,688 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:24,689 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:24,692 INFO  [SoapUITestCaseRunner] running step [Customer Data Clean Up]
+2020-07-26 23:14:25,464 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin to Add New Customer and Add Rewards Points], time taken: 2335ms, status: FINISHED
+2020-07-26 23:14:25,465 INFO  [log] FINISHED
+2020-07-26 23:14:25,468 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:25,470 INFO  [log] Devarajulu
+2020-07-26 23:14:25,471 INFO  [log] Avula
+2020-07-26 23:14:25,473 INFO  [log] deva100@gmail.com
+2020-07-26 23:14:25,473 INFO  [log] Secret123
+2020-07-26 23:14:25,474 INFO  [log] Secret123
+2020-07-26 23:14:25,485 INFO  [log] 1234567898
+2020-07-26 23:14:25,486 INFO  [log] 800
+2020-07-26 23:14:25,487 INFO  [log] firstname is Devarajulu
+2020-07-26 23:14:25,488 INFO  [log] lastname is Avula
+2020-07-26 23:14:25,491 INFO  [log] email is deva100@gmail.com
+2020-07-26 23:14:25,491 INFO  [log] password is Secret123
+2020-07-26 23:14:25,500 INFO  [log] confirm is Secret123
+2020-07-26 23:14:25,503 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:25,509 INFO  [log] reward points are 800
+2020-07-26 23:14:25,510 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin to Add New Customer and Add Rewards Points]
+2020-07-26 23:14:25,511 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:25,515 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:25,790 INFO  [SoapUITestCaseRunner] running step [To Get Cust ID from Customer Add Response]
+2020-07-26 23:14:25,797 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:25,803 INFO  [log] PASS
+2020-07-26 23:14:25,804 INFO  [log] {"success":1,"error":[],"data":{"id":1413}}
+2020-07-26 23:14:25,809 INFO  [log] 1413
+2020-07-26 23:14:25,818 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:26,105 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:26,106 INFO  [SoapUITestCaseRunner] running step [Add Customer Reward Points]
+2020-07-26 23:14:26,385 INFO  [SoapUITestCaseRunner] running step [To Verify Status Code and Customer Reward Points]
+2020-07-26 23:14:26,673 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:26,675 INFO  [log] PASS
+2020-07-26 23:14:26,685 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1413,"customer_group_id":1,"firstname":"Devarajulu","lastname":"Avula","telephone":"1234567898","email":"deva100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"800","transaction_total":"?0.00"}}
+2020-07-26 23:14:26,699 INFO  [log] 1413
+2020-07-26 23:14:26,701 INFO  [log] 800
+2020-07-26 23:14:26,709 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:26,709 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:26,710 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:26,714 INFO  [SoapUITestCaseRunner] running step [Customer Data Clean Up]
+2020-07-26 23:14:26,990 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin to Add New Customer and Add Rewards Points], time taken: 1366ms, status: FINISHED
+2020-07-26 23:14:26,997 INFO  [log] FINISHED
+2020-07-26 23:14:27,002 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:27,003 INFO  [log] Suresh
+2020-07-26 23:14:27,004 INFO  [log] Sajja
+2020-07-26 23:14:27,009 INFO  [log] suresh100@gmail.com
+2020-07-26 23:14:27,018 INFO  [log] Secret123
+2020-07-26 23:14:27,020 INFO  [log] Secret123
+2020-07-26 23:14:27,028 INFO  [log] 1234567898
+2020-07-26 23:14:27,031 INFO  [log] 900
+2020-07-26 23:14:27,032 INFO  [log] firstname is Suresh
+2020-07-26 23:14:27,038 INFO  [log] lastname is Sajja
+2020-07-26 23:14:27,039 INFO  [log] email is suresh100@gmail.com
+2020-07-26 23:14:27,039 INFO  [log] password is Secret123
+2020-07-26 23:14:27,040 INFO  [log] confirm is Secret123
+2020-07-26 23:14:27,051 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:27,053 INFO  [log] reward points are 900
+2020-07-26 23:14:27,061 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin to Add New Customer and Add Rewards Points]
+2020-07-26 23:14:27,064 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:27,064 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:27,352 INFO  [SoapUITestCaseRunner] running step [To Get Cust ID from Customer Add Response]
+2020-07-26 23:14:27,358 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:27,368 INFO  [log] PASS
+2020-07-26 23:14:27,374 INFO  [log] {"success":1,"error":[],"data":{"id":1414}}
+2020-07-26 23:14:27,383 INFO  [log] 1414
+2020-07-26 23:14:27,386 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:27,684 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:27,690 INFO  [SoapUITestCaseRunner] running step [Add Customer Reward Points]
+2020-07-26 23:14:28,198 INFO  [SoapUITestCaseRunner] running step [To Verify Status Code and Customer Reward Points]
+2020-07-26 23:14:28,485 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:28,490 INFO  [log] PASS
+2020-07-26 23:14:28,501 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1414,"customer_group_id":1,"firstname":"Suresh","lastname":"Sajja","telephone":"1234567898","email":"suresh100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"900","transaction_total":"?0.00"}}
+2020-07-26 23:14:28,521 INFO  [log] 1414
+2020-07-26 23:14:28,530 INFO  [log] 900
+2020-07-26 23:14:28,534 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:28,540 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:28,545 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:28,546 INFO  [SoapUITestCaseRunner] running step [Customer Data Clean Up]
+2020-07-26 23:14:28,830 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin to Add New Customer and Add Rewards Points], time taken: 1607ms, status: FINISHED
+2020-07-26 23:14:28,833 INFO  [log] FINISHED
+2020-07-26 23:14:28,835 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:28,841 INFO  [log] Ganesh
+2020-07-26 23:14:28,848 INFO  [log] Arumugam
+2020-07-26 23:14:28,849 INFO  [log] ganesh100@gmail.com
+2020-07-26 23:14:28,856 INFO  [log] Secret123
+2020-07-26 23:14:28,860 INFO  [log] Secret123
+2020-07-26 23:14:28,868 INFO  [log] 1234567898
+2020-07-26 23:14:28,871 INFO  [log] 100
+2020-07-26 23:14:28,881 INFO  [log] firstname is Ganesh
+2020-07-26 23:14:28,883 INFO  [log] lastname is Arumugam
+2020-07-26 23:14:28,890 INFO  [log] email is ganesh100@gmail.com
+2020-07-26 23:14:28,895 INFO  [log] password is Secret123
+2020-07-26 23:14:28,901 INFO  [log] confirm is Secret123
+2020-07-26 23:14:28,902 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:28,903 INFO  [log] reward points are 100
+2020-07-26 23:14:28,904 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin to Add New Customer and Add Rewards Points]
+2020-07-26 23:14:28,909 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:28,917 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:29,201 INFO  [SoapUITestCaseRunner] running step [To Get Cust ID from Customer Add Response]
+2020-07-26 23:14:29,203 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:29,206 INFO  [log] PASS
+2020-07-26 23:14:29,216 INFO  [log] {"success":1,"error":[],"data":{"id":1415}}
+2020-07-26 23:14:29,219 INFO  [log] 1415
+2020-07-26 23:14:29,225 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:29,505 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:29,506 INFO  [SoapUITestCaseRunner] running step [Add Customer Reward Points]
+2020-07-26 23:14:29,791 INFO  [SoapUITestCaseRunner] running step [To Verify Status Code and Customer Reward Points]
+2020-07-26 23:14:30,077 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:30,080 INFO  [log] PASS
+2020-07-26 23:14:30,084 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1415,"customer_group_id":1,"firstname":"Ganesh","lastname":"Arumugam","telephone":"1234567898","email":"ganesh100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"100","transaction_total":"?0.00"}}
+2020-07-26 23:14:30,089 INFO  [log] 1415
+2020-07-26 23:14:30,101 INFO  [log] 100
+2020-07-26 23:14:30,101 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:30,104 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:30,106 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:30,114 INFO  [SoapUITestCaseRunner] running step [Customer Data Clean Up]
+2020-07-26 23:14:30,385 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin to Add New Customer and Add Rewards Points], time taken: 1361ms, status: FINISHED
+2020-07-26 23:14:30,389 INFO  [log] FINISHED
+2020-07-26 23:14:30,394 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:30,399 INFO  [SoapUITestCaseRunner] running step [Add New Product Category and get Details By Id - DD]
+2020-07-26 23:14:30,654 INFO  [log] The Total number of rows are 4
+2020-07-26 23:14:30,654 INFO  [log] The Total number of columns are 3
+2020-07-26 23:14:30,657 INFO  [log] Computers & Accessories
+2020-07-26 23:14:30,663 INFO  [log] Computers & Accessories
+2020-07-26 23:14:30,665 INFO  [log] Description of the Computers & Accessories
+2020-07-26 23:14:30,671 INFO  [log] category name is Computers & Accessories
+2020-07-26 23:14:30,671 INFO  [log] meta title is Computers & Accessories
+2020-07-26 23:14:30,681 INFO  [log] description is Description of the Computers & Accessories
+2020-07-26 23:14:30,684 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add New Product Category and get Details By Id]
+2020-07-26 23:14:30,686 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:30,693 INFO  [SoapUITestCaseRunner] running step [Add New Category]
+2020-07-26 23:14:30,988 INFO  [SoapUITestCaseRunner] running step [Get Category ID  from Category Add  Response]
+2020-07-26 23:14:30,990 INFO  [log] {"success":1,"error":[],"data":{"id":1655}}
+2020-07-26 23:14:30,992 INFO  [log] 1655
+2020-07-26 23:14:31,002 INFO  [SoapUITestCaseRunner] running step [Get Category Details By Id]
+2020-07-26 23:14:31,298 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:31,303 INFO  [log] PASS
+2020-07-26 23:14:31,309 INFO  [log] {"success":1,"error":[],"data":[{"category_id":1655,"name":"Computers & Accessories","description":"Description of the Computers & Accessories","sort_order":0,"meta_title":"Computers & Accessories","meta_description":"","meta_keyword":"","language_id":1,"status":"1","parent_id":0,"column":1,"top":"0","category_store":["0"],"category_seo_url":[],"category_layout":[],"category_filter":[],"image":"","original_image":"","categories":[]}]}
+2020-07-26 23:14:31,328 INFO  [log] [1655]
+2020-07-26 23:14:31,331 INFO  [log] Category ID Validated Successfully...
+2020-07-26 23:14:31,332 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:31,339 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add New Product Category and get Details By Id], time taken: 559ms, status: FINISHED
+2020-07-26 23:14:31,343 INFO  [log] FINISHED
+2020-07-26 23:14:31,351 INFO  [log] Number of test Step got executed 4
+2020-07-26 23:14:31,354 INFO  [log] Furnitures
+2020-07-26 23:14:31,361 INFO  [log] Furnitures
+2020-07-26 23:14:31,362 INFO  [log] Description of the Furnitures
+2020-07-26 23:14:31,366 INFO  [log] category name is Furnitures
+2020-07-26 23:14:31,372 INFO  [log] meta title is Furnitures
+2020-07-26 23:14:31,373 INFO  [log] description is Description of the Furnitures
+2020-07-26 23:14:31,374 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add New Product Category and get Details By Id]
+2020-07-26 23:14:31,384 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:31,385 INFO  [SoapUITestCaseRunner] running step [Add New Category]
+2020-07-26 23:14:31,664 INFO  [SoapUITestCaseRunner] running step [Get Category ID  from Category Add  Response]
+2020-07-26 23:14:31,674 INFO  [log] {"success":1,"error":[],"data":{"id":1656}}
+2020-07-26 23:14:31,674 INFO  [log] 1656
+2020-07-26 23:14:31,679 INFO  [SoapUITestCaseRunner] running step [Get Category Details By Id]
+2020-07-26 23:14:31,964 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:31,965 INFO  [log] PASS
+2020-07-26 23:14:31,967 INFO  [log] {"success":1,"error":[],"data":[{"category_id":1656,"name":"Furnitures","description":"Description of the Furnitures","sort_order":0,"meta_title":"Furnitures","meta_description":"","meta_keyword":"","language_id":1,"status":"1","parent_id":0,"column":1,"top":"0","category_store":["0"],"category_seo_url":[],"category_layout":[],"category_filter":[],"image":"","original_image":"","categories":[]}]}
+2020-07-26 23:14:31,985 INFO  [log] [1656]
+2020-07-26 23:14:31,987 INFO  [log] Category ID Validated Successfully...
+2020-07-26 23:14:31,988 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:31,997 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add New Product Category and get Details By Id], time taken: 548ms, status: FINISHED
+2020-07-26 23:14:32,000 INFO  [log] FINISHED
+2020-07-26 23:14:32,006 INFO  [log] Number of test Step got executed 4
+2020-07-26 23:14:32,007 INFO  [log] Groceries
+2020-07-26 23:14:32,007 INFO  [log] Groceries
+2020-07-26 23:14:32,008 INFO  [log] Description of the Groceries
+2020-07-26 23:14:32,013 INFO  [log] category name is Groceries
+2020-07-26 23:14:32,019 INFO  [log] meta title is Groceries
+2020-07-26 23:14:32,020 INFO  [log] description is Description of the Groceries
+2020-07-26 23:14:32,020 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add New Product Category and get Details By Id]
+2020-07-26 23:14:32,023 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:32,023 INFO  [SoapUITestCaseRunner] running step [Add New Category]
+2020-07-26 23:14:32,312 INFO  [SoapUITestCaseRunner] running step [Get Category ID  from Category Add  Response]
+2020-07-26 23:14:32,315 INFO  [log] {"success":1,"error":[],"data":{"id":1657}}
+2020-07-26 23:14:32,318 INFO  [log] 1657
+2020-07-26 23:14:32,324 INFO  [SoapUITestCaseRunner] running step [Get Category Details By Id]
+2020-07-26 23:14:32,601 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:32,601 INFO  [log] PASS
+2020-07-26 23:14:32,603 INFO  [log] {"success":1,"error":[],"data":[{"category_id":1657,"name":"Groceries","description":"Description of the Groceries","sort_order":0,"meta_title":"Groceries","meta_description":"","meta_keyword":"","language_id":1,"status":"1","parent_id":0,"column":1,"top":"0","category_store":["0"],"category_seo_url":[],"category_layout":[],"category_filter":[],"image":"","original_image":"","categories":[]}]}
+2020-07-26 23:14:32,614 INFO  [log] [1657]
+2020-07-26 23:14:32,621 INFO  [log] Category ID Validated Successfully...
+2020-07-26 23:14:32,622 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:32,634 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add New Product Category and get Details By Id], time taken: 534ms, status: FINISHED
+2020-07-26 23:14:32,636 INFO  [log] FINISHED
+2020-07-26 23:14:32,646 INFO  [log] Number of test Step got executed 4
+2020-07-26 23:14:32,648 INFO  [log] Food & Breweries
+2020-07-26 23:14:32,655 INFO  [log] Food & Breweries
+2020-07-26 23:14:32,656 INFO  [log] Description of the Food & Breweries
+2020-07-26 23:14:32,667 INFO  [log] category name is Food & Breweries
+2020-07-26 23:14:32,670 INFO  [log] meta title is Food & Breweries
+2020-07-26 23:14:32,679 INFO  [log] description is Description of the Food & Breweries
+2020-07-26 23:14:32,681 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add New Product Category and get Details By Id]
+2020-07-26 23:14:32,688 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:32,689 INFO  [SoapUITestCaseRunner] running step [Add New Category]
+2020-07-26 23:14:32,986 INFO  [SoapUITestCaseRunner] running step [Get Category ID  from Category Add  Response]
+2020-07-26 23:14:32,992 INFO  [log] {"success":1,"error":[],"data":{"id":1658}}
+2020-07-26 23:14:33,001 INFO  [log] 1658
+2020-07-26 23:14:33,004 INFO  [SoapUITestCaseRunner] running step [Get Category Details By Id]
+2020-07-26 23:14:33,297 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:33,301 INFO  [log] PASS
+2020-07-26 23:14:33,304 INFO  [log] {"success":1,"error":[],"data":[{"category_id":1658,"name":"Food & Breweries","description":"Description of the Food & Breweries","sort_order":0,"meta_title":"Food & Breweries","meta_description":"","meta_keyword":"","language_id":1,"status":"1","parent_id":0,"column":1,"top":"0","category_store":["0"],"category_seo_url":[],"category_layout":[],"category_filter":[],"image":"","original_image":"","categories":[]}]}
+2020-07-26 23:14:33,317 INFO  [log] [1658]
+2020-07-26 23:14:33,320 INFO  [log] Category ID Validated Successfully...
+2020-07-26 23:14:33,321 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:33,331 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add New Product Category and get Details By Id], time taken: 568ms, status: FINISHED
+2020-07-26 23:14:33,333 INFO  [log] FINISHED
+2020-07-26 23:14:33,340 INFO  [log] Number of test Step got executed 4
+2020-07-26 23:14:33,341 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Data Driven], time taken: 35458ms, status: FINISHED
+2020-07-26 23:14:33,348 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [DataBase]
+2020-07-26 23:14:33,348 INFO  [SoapUITestCaseRunner] running step [Admin Login and Logout -DB]
+2020-07-26 23:14:33,396 INFO  [log] f442be06378a36966e2f5bdeabd9ccaded492182
+2020-07-26 23:14:33,683 INFO  [log] The user name values Are upskills_admin
+2020-07-26 23:14:33,683 INFO  [log] The password values Are Talent4$$
+2020-07-26 23:14:33,690 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin Login and Logout]
+2020-07-26 23:14:33,694 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:33,697 INFO  [SoapUITestCaseRunner] running step [GetUserAdminDetailsRequest]
+2020-07-26 23:14:33,983 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:33,984 INFO  [log] Response Code: 200 => PASSED
+2020-07-26 23:14:33,990 INFO  [log] {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"49.206.11.18","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+2020-07-26 23:14:34,006 INFO  [log] upskills_admin
+2020-07-26 23:14:34,016 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:34,020 INFO  [SoapUITestCaseRunner] running step [Admin Logout Request]
+2020-07-26 23:14:34,317 INFO  [SoapUITestCaseRunner] running step [Admin Login Request -For Relogin]
+2020-07-26 23:14:34,616 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:34,617 INFO  [log] PASS
+2020-07-26 23:14:34,619 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:34,626 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin Login and Logout], time taken: 815ms, status: FINISHED
+2020-07-26 23:14:34,631 INFO  [log] FINISHED
+2020-07-26 23:14:34,638 INFO  [log] Number of test Step got executed 4
+2020-07-26 23:14:34,644 INFO  [SoapUITestCaseRunner] running step [Admin - Add Customer and Delete Customer - DB]
+2020-07-26 23:14:34,700 INFO  [log] f442be06378a36966e2f5bdeabd9ccaded492182
+2020-07-26 23:14:34,717 INFO  [log] The firstname values Are Rajkumar
+2020-07-26 23:14:34,718 INFO  [log] The lastname values Are Dr
+2020-07-26 23:14:34,719 INFO  [log] The email values Are rajkumar100@gmail.com
+2020-07-26 23:14:34,720 INFO  [log] The password values Are raju
+2020-07-26 23:14:34,728 INFO  [log] The confirm values Are raju
+2020-07-26 23:14:34,729 INFO  [log] The telephone values Are 1234567891
+2020-07-26 23:14:34,735 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin - Add Customer and Delete Customer]
+2020-07-26 23:14:34,738 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:34,745 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:35,024 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:35,025 INFO  [log] PASS
+2020-07-26 23:14:35,028 INFO  [log] {"success":1,"error":[],"data":{"id":1416}}
+2020-07-26 23:14:35,032 INFO  [log] 1416
+2020-07-26 23:14:35,034 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:35,041 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:35,316 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:35,318 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-07-26 23:14:35,587 INFO  [SoapUITestCaseRunner] running step [Try to Fetch Deleted Customer By Id]
+2020-07-26 23:14:35,862 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:35,866 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:35,868 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:35,875 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin - Add Customer and Delete Customer], time taken: 1057ms, status: FINISHED
+2020-07-26 23:14:35,880 INFO  [log] FINISHED
+2020-07-26 23:14:35,881 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:35,887 INFO  [log] The firstname values Are vishnuvardhan
+2020-07-26 23:14:35,888 INFO  [log] The lastname values Are Dr
+2020-07-26 23:14:35,898 INFO  [log] The email values Are vishnu100@gmail.com
+2020-07-26 23:14:35,899 INFO  [log] The password values Are vishnu
+2020-07-26 23:14:35,902 INFO  [log] The confirm values Are vishnu
+2020-07-26 23:14:35,909 INFO  [log] The telephone values Are 1234567891
+2020-07-26 23:14:35,913 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin - Add Customer and Delete Customer]
+2020-07-26 23:14:35,914 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:35,921 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:36,212 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:36,220 INFO  [log] PASS
+2020-07-26 23:14:36,220 INFO  [log] {"success":1,"error":[],"data":{"id":1417}}
+2020-07-26 23:14:36,229 INFO  [log] 1417
+2020-07-26 23:14:36,232 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:36,239 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:36,518 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:36,519 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-07-26 23:14:36,803 INFO  [SoapUITestCaseRunner] running step [Try to Fetch Deleted Customer By Id]
+2020-07-26 23:14:37,073 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:37,074 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:37,075 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:37,075 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin - Add Customer and Delete Customer], time taken: 1077ms, status: FINISHED
+2020-07-26 23:14:37,077 INFO  [log] FINISHED
+2020-07-26 23:14:37,078 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:37,079 INFO  [log] The firstname values Are Sudeep
+2020-07-26 23:14:37,082 INFO  [log] The lastname values Are kitcha
+2020-07-26 23:14:37,083 INFO  [log] The email values Are Sudeep100@gmail.com
+2020-07-26 23:14:37,089 INFO  [log] The password values Are sudeep
+2020-07-26 23:14:37,089 INFO  [log] The confirm values Are sudeep
+2020-07-26 23:14:37,090 INFO  [log] The telephone values Are 1234567891
+2020-07-26 23:14:37,092 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin - Add Customer and Delete Customer]
+2020-07-26 23:14:37,096 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:37,102 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:37,380 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:37,381 INFO  [log] PASS
+2020-07-26 23:14:37,382 INFO  [log] {"success":1,"error":[],"data":{"id":1418}}
+2020-07-26 23:14:37,389 INFO  [log] 1418
+2020-07-26 23:14:37,400 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:37,402 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:37,679 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:37,679 INFO  [SoapUITestCaseRunner] running step [Delete Customer By Id]
+2020-07-26 23:14:37,948 INFO  [SoapUITestCaseRunner] running step [Try to Fetch Deleted Customer By Id]
+2020-07-26 23:14:38,231 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:38,237 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:38,248 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:38,253 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin - Add Customer and Delete Customer], time taken: 1067ms, status: FINISHED
+2020-07-26 23:14:38,264 INFO  [log] FINISHED
+2020-07-26 23:14:38,264 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:38,272 INFO  [SoapUITestCaseRunner] running step [Add New Customer and Add Rewards Points - DB]
+2020-07-26 23:14:38,322 INFO  [log] f442be06378a36966e2f5bdeabd9ccaded492182
+2020-07-26 23:14:38,335 INFO  [log] The firstname values Are Rajkumar
+2020-07-26 23:14:38,336 INFO  [log] The lastname values Are Dr
+2020-07-26 23:14:38,336 INFO  [log] The email values Are rajkumar100@gmail.com
+2020-07-26 23:14:38,337 INFO  [log] The password values Are raju
+2020-07-26 23:14:38,338 INFO  [log] The confirm values Are raju
+2020-07-26 23:14:38,338 INFO  [log] The telephone values Are 1234567891
+2020-07-26 23:14:38,339 INFO  [log] The rewards values Are 300
+2020-07-26 23:14:38,341 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin to Add New Customer and Add Rewards Points]
+2020-07-26 23:14:38,341 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:38,343 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:38,605 INFO  [SoapUITestCaseRunner] running step [To Get Cust ID from Customer Add Response]
+2020-07-26 23:14:38,605 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:38,606 INFO  [log] PASS
+2020-07-26 23:14:38,607 INFO  [log] {"success":1,"error":[],"data":{"id":1419}}
+2020-07-26 23:14:38,610 INFO  [log] 1419
+2020-07-26 23:14:38,610 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:38,872 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:38,872 INFO  [SoapUITestCaseRunner] running step [Add Customer Reward Points]
+2020-07-26 23:14:39,131 INFO  [SoapUITestCaseRunner] running step [To Verify Status Code and Customer Reward Points]
+2020-07-26 23:14:39,384 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:39,384 INFO  [log] PASS
+2020-07-26 23:14:39,385 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1419,"customer_group_id":1,"firstname":"Rajkumar","lastname":"Dr","telephone":"1234567891","email":"rajkumar100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"300","transaction_total":"?0.00"}}
+2020-07-26 23:14:39,387 INFO  [log] 1419
+2020-07-26 23:14:39,387 INFO  [log] 300
+2020-07-26 23:14:39,388 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:39,388 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:39,389 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:39,389 INFO  [SoapUITestCaseRunner] running step [Customer Data Clean Up]
+2020-07-26 23:14:39,663 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin to Add New Customer and Add Rewards Points], time taken: 1288ms, status: FINISHED
+2020-07-26 23:14:39,666 INFO  [log] FINISHED
+2020-07-26 23:14:39,667 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:39,674 INFO  [log] The firstname values Are vishnuvardhan
+2020-07-26 23:14:39,678 INFO  [log] The lastname values Are Dr
+2020-07-26 23:14:39,679 INFO  [log] The email values Are vishnu100@gmail.com
+2020-07-26 23:14:39,686 INFO  [log] The password values Are vishnu
+2020-07-26 23:14:39,686 INFO  [log] The confirm values Are vishnu
+2020-07-26 23:14:39,687 INFO  [log] The telephone values Are 1234567891
+2020-07-26 23:14:39,698 INFO  [log] The rewards values Are 500
+2020-07-26 23:14:39,701 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin to Add New Customer and Add Rewards Points]
+2020-07-26 23:14:39,708 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:39,709 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:39,981 INFO  [SoapUITestCaseRunner] running step [To Get Cust ID from Customer Add Response]
+2020-07-26 23:14:39,985 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:39,986 INFO  [log] PASS
+2020-07-26 23:14:39,995 INFO  [log] {"success":1,"error":[],"data":{"id":1420}}
+2020-07-26 23:14:39,998 INFO  [log] 1420
+2020-07-26 23:14:40,005 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:40,284 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:40,286 INFO  [SoapUITestCaseRunner] running step [Add Customer Reward Points]
+2020-07-26 23:14:40,564 INFO  [SoapUITestCaseRunner] running step [To Verify Status Code and Customer Reward Points]
+2020-07-26 23:14:40,848 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:40,849 INFO  [log] PASS
+2020-07-26 23:14:40,850 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1420,"customer_group_id":1,"firstname":"vishnuvardhan","lastname":"Dr","telephone":"1234567891","email":"vishnu100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"500","transaction_total":"?0.00"}}
+2020-07-26 23:14:40,869 INFO  [log] 1420
+2020-07-26 23:14:40,870 INFO  [log] 500
+2020-07-26 23:14:40,880 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:40,881 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:40,884 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:40,891 INFO  [SoapUITestCaseRunner] running step [Customer Data Clean Up]
+2020-07-26 23:14:41,161 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin to Add New Customer and Add Rewards Points], time taken: 1353ms, status: FINISHED
+2020-07-26 23:14:41,162 INFO  [log] FINISHED
+2020-07-26 23:14:41,164 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:41,172 INFO  [log] The firstname values Are Sudeep
+2020-07-26 23:14:41,179 INFO  [log] The lastname values Are kitcha
+2020-07-26 23:14:41,181 INFO  [log] The email values Are Sudeep100@gmail.com
+2020-07-26 23:14:41,188 INFO  [log] The password values Are sudeep
+2020-07-26 23:14:41,189 INFO  [log] The confirm values Are sudeep
+2020-07-26 23:14:41,190 INFO  [log] The telephone values Are 1234567891
+2020-07-26 23:14:41,194 INFO  [log] The rewards values Are 700
+2020-07-26 23:14:41,205 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Admin to Add New Customer and Add Rewards Points]
+2020-07-26 23:14:41,206 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:41,215 INFO  [SoapUITestCaseRunner] running step [Customer Add]
+2020-07-26 23:14:41,482 INFO  [SoapUITestCaseRunner] running step [To Get Cust ID from Customer Add Response]
+2020-07-26 23:14:41,482 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:41,486 INFO  [log] PASS
+2020-07-26 23:14:41,491 INFO  [log] {"success":1,"error":[],"data":{"id":1421}}
+2020-07-26 23:14:41,499 INFO  [log] 1421
+2020-07-26 23:14:41,503 INFO  [SoapUITestCaseRunner] running step [Get Customer By Id]
+2020-07-26 23:14:41,774 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:41,778 INFO  [SoapUITestCaseRunner] running step [Add Customer Reward Points]
+2020-07-26 23:14:42,062 INFO  [SoapUITestCaseRunner] running step [To Verify Status Code and Customer Reward Points]
+2020-07-26 23:14:42,346 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:42,349 INFO  [log] PASS
+2020-07-26 23:14:42,350 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1421,"customer_group_id":1,"firstname":"Sudeep","lastname":"kitcha","telephone":"1234567891","email":"Sudeep100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"700","transaction_total":"?0.00"}}
+2020-07-26 23:14:42,366 INFO  [log] 1421
+2020-07-26 23:14:42,366 INFO  [log] 700
+2020-07-26 23:14:42,367 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:42,368 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:42,369 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:42,372 INFO  [SoapUITestCaseRunner] running step [Customer Data Clean Up]
+2020-07-26 23:14:42,640 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Admin to Add New Customer and Add Rewards Points], time taken: 1349ms, status: FINISHED
+2020-07-26 23:14:42,640 INFO  [log] FINISHED
+2020-07-26 23:14:42,642 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:42,643 INFO  [SoapUITestCaseRunner] running step [Add New Product Category and get Details By Id - DB]
+2020-07-26 23:14:42,670 INFO  [log] f442be06378a36966e2f5bdeabd9ccaded492182
+2020-07-26 23:14:42,685 INFO  [log] The category name values Are Clothes
+2020-07-26 23:14:42,686 INFO  [log] The meta_title values Are Clothes
+2020-07-26 23:14:42,686 INFO  [log] The description values Are Dress Material
+2020-07-26 23:14:42,688 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add New Product Category and get Details By Id]
+2020-07-26 23:14:42,688 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:42,689 INFO  [SoapUITestCaseRunner] running step [Add New Category]
+2020-07-26 23:14:42,965 INFO  [SoapUITestCaseRunner] running step [Get Category ID  from Category Add  Response]
+2020-07-26 23:14:42,968 INFO  [log] {"success":1,"error":[],"data":{"id":1659}}
+2020-07-26 23:14:42,970 INFO  [log] 1659
+2020-07-26 23:14:42,979 INFO  [SoapUITestCaseRunner] running step [Get Category Details By Id]
+2020-07-26 23:14:43,269 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:43,273 INFO  [log] PASS
+2020-07-26 23:14:43,282 INFO  [log] {"success":1,"error":[],"data":[{"category_id":1659,"name":"Clothes","description":"Dress Material","sort_order":0,"meta_title":"Clothes","meta_description":"","meta_keyword":"","language_id":1,"status":"1","parent_id":0,"column":1,"top":"0","category_store":["0"],"category_seo_url":[],"category_layout":[],"category_filter":[],"image":"","original_image":"","categories":[]}]}
+2020-07-26 23:14:43,302 INFO  [log] [1659]
+2020-07-26 23:14:43,304 INFO  [log] Category ID Validated Successfully...
+2020-07-26 23:14:43,306 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:43,313 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add New Product Category and get Details By Id], time taken: 553ms, status: FINISHED
+2020-07-26 23:14:43,315 INFO  [log] FINISHED
+2020-07-26 23:14:43,317 INFO  [log] Number of test Step got executed 4
+2020-07-26 23:14:43,329 INFO  [log] The category name values Are Motor Vehicles
+2020-07-26 23:14:43,331 INFO  [log] The meta_title values Are Motor Vehicles
+2020-07-26 23:14:43,335 INFO  [log] The description values Are Automobiles
+2020-07-26 23:14:43,343 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add New Product Category and get Details By Id]
+2020-07-26 23:14:43,352 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:43,355 INFO  [SoapUITestCaseRunner] running step [Add New Category]
+2020-07-26 23:14:43,637 INFO  [SoapUITestCaseRunner] running step [Get Category ID  from Category Add  Response]
+2020-07-26 23:14:43,643 INFO  [log] {"success":1,"error":[],"data":{"id":1660}}
+2020-07-26 23:14:43,647 INFO  [log] 1660
+2020-07-26 23:14:43,658 INFO  [SoapUITestCaseRunner] running step [Get Category Details By Id]
+2020-07-26 23:14:43,950 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:43,954 INFO  [log] PASS
+2020-07-26 23:14:43,957 INFO  [log] {"success":1,"error":[],"data":[{"category_id":1660,"name":"Motor Vehicles","description":"Automobiles","sort_order":0,"meta_title":"Motor Vehicles","meta_description":"","meta_keyword":"","language_id":1,"status":"1","parent_id":0,"column":1,"top":"0","category_store":["0"],"category_seo_url":[],"category_layout":[],"category_filter":[],"image":"","original_image":"","categories":[]}]}
+2020-07-26 23:14:43,972 INFO  [log] [1660]
+2020-07-26 23:14:43,973 INFO  [log] Category ID Validated Successfully...
+2020-07-26 23:14:43,978 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:43,979 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add New Product Category and get Details By Id], time taken: 558ms, status: FINISHED
+2020-07-26 23:14:43,986 INFO  [log] FINISHED
+2020-07-26 23:14:43,986 INFO  [log] Number of test Step got executed 4
+2020-07-26 23:14:43,987 INFO  [log] The category name values Are Electronics
+2020-07-26 23:14:43,998 INFO  [log] The meta_title values Are Electronics
+2020-07-26 23:14:44,001 INFO  [log] The description values Are Electronic Goods
+2020-07-26 23:14:44,010 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Add New Product Category and get Details By Id]
+2020-07-26 23:14:44,012 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-07-26 23:14:44,019 INFO  [SoapUITestCaseRunner] running step [Add New Category]
+2020-07-26 23:14:44,300 INFO  [SoapUITestCaseRunner] running step [Get Category ID  from Category Add  Response]
+2020-07-26 23:14:44,304 INFO  [log] {"success":1,"error":[],"data":{"id":1661}}
+2020-07-26 23:14:44,313 INFO  [log] 1661
+2020-07-26 23:14:44,317 INFO  [SoapUITestCaseRunner] running step [Get Category Details By Id]
+2020-07-26 23:14:44,602 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:44,604 INFO  [log] PASS
+2020-07-26 23:14:44,611 INFO  [log] {"success":1,"error":[],"data":[{"category_id":1661,"name":"Electronics","description":"Electronic Goods","sort_order":0,"meta_title":"Electronics","meta_description":"","meta_keyword":"","language_id":1,"status":"1","parent_id":0,"column":1,"top":"0","category_store":["0"],"category_seo_url":[],"category_layout":[],"category_filter":[],"image":"","original_image":"","categories":[]}]}
+2020-07-26 23:14:44,625 INFO  [log] [1661]
+2020-07-26 23:14:44,629 INFO  [log] Category ID Validated Successfully...
+2020-07-26 23:14:44,631 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-07-26 23:14:44,643 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Add New Product Category and get Details By Id], time taken: 544ms, status: FINISHED
+2020-07-26 23:14:44,644 INFO  [log] FINISHED
+2020-07-26 23:14:44,648 INFO  [log] Number of test Step got executed 4
+2020-07-26 23:14:44,649 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [DataBase], time taken: 11282ms, status: FINISHED
+2020-07-26 23:14:44,650 INFO  [SoapUITestCaseRunner] Project [REST Project 1] finished with status [FINISHED] in 53444ms
+2020-07-26 23:14:48,083 WARN  [Tools] Could not delete temporary directory C:\Users\GUNASE~1\AppData\Local\Temp\39cfa8a5-66e9-47d7-b5d8-1b52dde13a3d
+2020-07-26 23:14:48,087 WARN  [Tools] Could not delete temporary directory C:\Users\GUNASE~1\AppData\Local\Temp\4eb2c0ce-68ca-43c5-a72f-a806c021cee0

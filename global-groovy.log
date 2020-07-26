@@ -1,0 +1,738 @@
+2020-07-26 23:13:52,655 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:52,657 INFO  [log] PASS
+2020-07-26 23:13:52,673 INFO  [log] {"success":1,"error":[],"data":{"access_token":"f442be06378a36966e2f5bdeabd9ccaded492182","expires_in":86400,"token_type":"Bearer"}}
+2020-07-26 23:13:52,707 INFO  [log] f442be06378a36966e2f5bdeabd9ccaded492182
+2020-07-26 23:13:53,135 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:53,136 INFO  [log] PASS
+2020-07-26 23:13:53,474 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:53,474 INFO  [log] Response Code: 200 => PASSED
+2020-07-26 23:13:53,477 INFO  [log] {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"49.206.11.18","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+2020-07-26 23:13:53,485 INFO  [log] upskills_admin
+2020-07-26 23:13:54,118 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:54,118 INFO  [log] PASS
+2020-07-26 23:13:54,471 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:54,475 INFO  [log] PASS
+2020-07-26 23:13:54,476 INFO  [log] {"success":1,"error":[],"data":{"id":1394}}
+2020-07-26 23:13:54,488 INFO  [log] 1394
+2020-07-26 23:13:55,502 INFO  [log] HTTP status code: 404
+2020-07-26 23:13:55,502 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:13:55,864 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:55,864 INFO  [log] PASS
+2020-07-26 23:13:55,874 INFO  [log] {"success":1,"error":[],"data":{"id":1395}}
+2020-07-26 23:13:55,874 INFO  [log] 1395
+2020-07-26 23:13:56,866 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:56,866 INFO  [log] PASS
+2020-07-26 23:13:56,868 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1395,"customer_group_id":1,"firstname":"Sudeep","lastname":"kitcha","telephone":"1234567891","email":"Sudeep100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"700","transaction_total":"?0.00"}}
+2020-07-26 23:13:56,880 INFO  [log] 1395
+2020-07-26 23:13:56,880 INFO  [log] 700
+2020-07-26 23:13:56,889 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:13:56,890 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:13:57,470 INFO  [log] {"success":1,"error":[],"data":{"id":1654}}
+2020-07-26 23:13:57,471 INFO  [log] 1654
+2020-07-26 23:13:57,815 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:57,816 INFO  [log] PASS
+2020-07-26 23:13:57,818 INFO  [log] {"success":1,"error":[],"data":[{"category_id":1654,"name":"Electronics","description":"Electronic Goods","sort_order":0,"meta_title":"Electronics","meta_description":"","meta_keyword":"","language_id":1,"status":"1","parent_id":0,"column":1,"top":"0","category_store":["0"],"category_seo_url":[],"category_layout":[],"category_filter":[],"image":"","original_image":"","categories":[]}]}
+2020-07-26 23:13:57,839 INFO  [log] [1654]
+2020-07-26 23:13:57,845 INFO  [log] Category ID Validated Successfully...
+2020-07-26 23:13:58,399 INFO  [log] The Total number of rows are 1
+2020-07-26 23:13:58,401 INFO  [log] The Total number of columns are 2
+2020-07-26 23:13:58,414 INFO  [log] upskills_admin
+2020-07-26 23:13:58,425 INFO  [log] Talent4$$
+2020-07-26 23:13:58,447 INFO  [log] uname is upskills_admin
+2020-07-26 23:13:58,448 INFO  [log] password is Talent4$$
+2020-07-26 23:13:58,762 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:58,763 INFO  [log] Response Code: 200 => PASSED
+2020-07-26 23:13:58,765 INFO  [log] {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"49.206.11.18","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+2020-07-26 23:13:58,776 INFO  [log] upskills_admin
+2020-07-26 23:13:59,347 INFO  [log] HTTP status code: 200
+2020-07-26 23:13:59,348 INFO  [log] PASS
+2020-07-26 23:13:59,367 INFO  [log] FINISHED
+2020-07-26 23:13:59,380 INFO  [log] Number of test Step got executed 4
+2020-07-26 23:13:59,666 INFO  [log] The Total number of rows are 10
+2020-07-26 23:13:59,668 INFO  [log] The Total number of columns are 6
+2020-07-26 23:13:59,671 INFO  [log] Gunasekhar 
+2020-07-26 23:13:59,671 INFO  [log] Keserla10
+2020-07-26 23:13:59,678 INFO  [log] gunasekhar102@gmail.com
+2020-07-26 23:13:59,691 INFO  [log] Secret123
+2020-07-26 23:13:59,693 INFO  [log] Secret123
+2020-07-26 23:13:59,710 INFO  [log] 1234567898
+2020-07-26 23:13:59,713 INFO  [log] firstname is Gunasekhar 
+2020-07-26 23:13:59,715 INFO  [log] lastname is Keserla10
+2020-07-26 23:13:59,722 INFO  [log] email is gunasekhar102@gmail.com
+2020-07-26 23:13:59,725 INFO  [log] password is Secret123
+2020-07-26 23:13:59,726 INFO  [log] confirm is Secret123
+2020-07-26 23:13:59,734 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:00,040 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:00,044 INFO  [log] PASS
+2020-07-26 23:14:00,045 INFO  [log] {"success":1,"error":[],"data":{"id":1396}}
+2020-07-26 23:14:00,056 INFO  [log] 1396
+2020-07-26 23:14:00,977 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:00,978 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:01,009 INFO  [log] FINISHED
+2020-07-26 23:14:01,013 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:01,016 INFO  [log] Pranav
+2020-07-26 23:14:01,024 INFO  [log] Keserla
+2020-07-26 23:14:01,025 INFO  [log] pranav102@gmail.com
+2020-07-26 23:14:01,032 INFO  [log] Secret123
+2020-07-26 23:14:01,038 INFO  [log] Secret123
+2020-07-26 23:14:01,045 INFO  [log] 1234567898
+2020-07-26 23:14:01,048 INFO  [log] firstname is Pranav
+2020-07-26 23:14:01,055 INFO  [log] lastname is Keserla
+2020-07-26 23:14:01,056 INFO  [log] email is pranav102@gmail.com
+2020-07-26 23:14:01,059 INFO  [log] password is Secret123
+2020-07-26 23:14:01,067 INFO  [log] confirm is Secret123
+2020-07-26 23:14:01,070 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:01,386 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:01,392 INFO  [log] PASS
+2020-07-26 23:14:01,393 INFO  [log] {"success":1,"error":[],"data":{"id":1397}}
+2020-07-26 23:14:01,395 INFO  [log] 1397
+2020-07-26 23:14:02,251 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:02,255 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:02,276 INFO  [log] FINISHED
+2020-07-26 23:14:02,276 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:02,277 INFO  [log] Shrivas
+2020-07-26 23:14:02,278 INFO  [log] Keserla
+2020-07-26 23:14:02,279 INFO  [log] shrivas102@gmail.com
+2020-07-26 23:14:02,280 INFO  [log] Secret123
+2020-07-26 23:14:02,280 INFO  [log] Secret123
+2020-07-26 23:14:02,283 INFO  [log] 1234567898
+2020-07-26 23:14:02,290 INFO  [log] firstname is Shrivas
+2020-07-26 23:14:02,297 INFO  [log] lastname is Keserla
+2020-07-26 23:14:02,301 INFO  [log] email is shrivas102@gmail.com
+2020-07-26 23:14:02,303 INFO  [log] password is Secret123
+2020-07-26 23:14:02,303 INFO  [log] confirm is Secret123
+2020-07-26 23:14:02,311 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:02,616 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:02,617 INFO  [log] PASS
+2020-07-26 23:14:02,620 INFO  [log] {"success":1,"error":[],"data":{"id":1398}}
+2020-07-26 23:14:02,625 INFO  [log] 1398
+2020-07-26 23:14:03,469 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:03,469 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:03,476 INFO  [log] FINISHED
+2020-07-26 23:14:03,483 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:03,487 INFO  [log] sk
+2020-07-26 23:14:03,488 INFO  [log] Gaddam
+2020-07-26 23:14:03,495 INFO  [log] gsk102@gmail.com
+2020-07-26 23:14:03,504 INFO  [log] Secret123
+2020-07-26 23:14:03,506 INFO  [log] Secret123
+2020-07-26 23:14:03,508 INFO  [log] 1234567898
+2020-07-26 23:14:03,509 INFO  [log] firstname is sk
+2020-07-26 23:14:03,510 INFO  [log] lastname is Gaddam
+2020-07-26 23:14:03,510 INFO  [log] email is gsk102@gmail.com
+2020-07-26 23:14:03,511 INFO  [log] password is Secret123
+2020-07-26 23:14:03,512 INFO  [log] confirm is Secret123
+2020-07-26 23:14:03,518 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:03,825 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:03,825 INFO  [log] PASS
+2020-07-26 23:14:03,830 INFO  [log] {"success":1,"error":[],"data":{"id":1399}}
+2020-07-26 23:14:03,837 INFO  [log] 1399
+2020-07-26 23:14:04,716 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:04,717 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:04,733 INFO  [log] FINISHED
+2020-07-26 23:14:04,742 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:04,743 INFO  [log] Chandrasekhar
+2020-07-26 23:14:04,751 INFO  [log] Keserla
+2020-07-26 23:14:04,755 INFO  [log] chandrasekhar102@gmail.com
+2020-07-26 23:14:04,755 INFO  [log] Secret123
+2020-07-26 23:14:04,762 INFO  [log] Secret123
+2020-07-26 23:14:04,763 INFO  [log] 1234567898
+2020-07-26 23:14:04,773 INFO  [log] firstname is Chandrasekhar
+2020-07-26 23:14:04,773 INFO  [log] lastname is Keserla
+2020-07-26 23:14:04,774 INFO  [log] email is chandrasekhar102@gmail.com
+2020-07-26 23:14:04,774 INFO  [log] password is Secret123
+2020-07-26 23:14:04,775 INFO  [log] confirm is Secret123
+2020-07-26 23:14:04,778 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:05,086 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:05,087 INFO  [log] PASS
+2020-07-26 23:14:05,089 INFO  [log] {"success":1,"error":[],"data":{"id":1400}}
+2020-07-26 23:14:05,096 INFO  [log] 1400
+2020-07-26 23:14:05,961 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:05,965 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:05,988 INFO  [log] FINISHED
+2020-07-26 23:14:05,988 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:05,996 INFO  [log] Rajasekhar
+2020-07-26 23:14:06,000 INFO  [log] keserla
+2020-07-26 23:14:06,001 INFO  [log] rajasekhar102@gmail.com
+2020-07-26 23:14:06,008 INFO  [log] Secret123
+2020-07-26 23:14:06,008 INFO  [log] Secret123
+2020-07-26 23:14:06,009 INFO  [log] 1234567898
+2020-07-26 23:14:06,013 INFO  [log] firstname is Rajasekhar
+2020-07-26 23:14:06,021 INFO  [log] lastname is keserla
+2020-07-26 23:14:06,024 INFO  [log] email is rajasekhar102@gmail.com
+2020-07-26 23:14:06,031 INFO  [log] password is Secret123
+2020-07-26 23:14:06,034 INFO  [log] confirm is Secret123
+2020-07-26 23:14:06,036 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:06,345 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:06,347 INFO  [log] PASS
+2020-07-26 23:14:06,355 INFO  [log] {"success":1,"error":[],"data":{"id":1401}}
+2020-07-26 23:14:06,356 INFO  [log] 1401
+2020-07-26 23:14:07,230 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:07,232 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:07,244 INFO  [log] FINISHED
+2020-07-26 23:14:07,253 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:07,256 INFO  [log] Vaishnavi
+2020-07-26 23:14:07,263 INFO  [log] Keserla
+2020-07-26 23:14:07,265 INFO  [log] vaishu102@gmail.com
+2020-07-26 23:14:07,269 INFO  [log] Secret123
+2020-07-26 23:14:07,269 INFO  [log] Secret123
+2020-07-26 23:14:07,276 INFO  [log] 1234567898
+2020-07-26 23:14:07,277 INFO  [log] firstname is Vaishnavi
+2020-07-26 23:14:07,283 INFO  [log] lastname is Keserla
+2020-07-26 23:14:07,289 INFO  [log] email is vaishu102@gmail.com
+2020-07-26 23:14:07,290 INFO  [log] password is Secret123
+2020-07-26 23:14:07,293 INFO  [log] confirm is Secret123
+2020-07-26 23:14:07,302 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:07,605 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:07,607 INFO  [log] PASS
+2020-07-26 23:14:07,611 INFO  [log] {"success":1,"error":[],"data":{"id":1402}}
+2020-07-26 23:14:07,620 INFO  [log] 1402
+2020-07-26 23:14:08,659 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:08,659 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:08,661 INFO  [log] FINISHED
+2020-07-26 23:14:08,662 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:08,662 INFO  [log] Devarajulu
+2020-07-26 23:14:08,663 INFO  [log] Avula
+2020-07-26 23:14:08,663 INFO  [log] deva102@gmail.com
+2020-07-26 23:14:08,664 INFO  [log] Secret123
+2020-07-26 23:14:08,665 INFO  [log] Secret123
+2020-07-26 23:14:08,670 INFO  [log] 1234567898
+2020-07-26 23:14:08,676 INFO  [log] firstname is Devarajulu
+2020-07-26 23:14:08,676 INFO  [log] lastname is Avula
+2020-07-26 23:14:08,676 INFO  [log] email is deva102@gmail.com
+2020-07-26 23:14:08,677 INFO  [log] password is Secret123
+2020-07-26 23:14:08,677 INFO  [log] confirm is Secret123
+2020-07-26 23:14:08,678 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:08,949 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:08,949 INFO  [log] PASS
+2020-07-26 23:14:08,950 INFO  [log] {"success":1,"error":[],"data":{"id":1403}}
+2020-07-26 23:14:08,951 INFO  [log] 1403
+2020-07-26 23:14:09,752 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:09,754 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:09,768 INFO  [log] FINISHED
+2020-07-26 23:14:09,769 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:09,776 INFO  [log] Suresh
+2020-07-26 23:14:09,777 INFO  [log] Sajja
+2020-07-26 23:14:09,787 INFO  [log] suresh102@gmail.com
+2020-07-26 23:14:09,788 INFO  [log] Secret123
+2020-07-26 23:14:09,790 INFO  [log] Secret123
+2020-07-26 23:14:09,797 INFO  [log] 1234567898
+2020-07-26 23:14:09,799 INFO  [log] firstname is Suresh
+2020-07-26 23:14:09,801 INFO  [log] lastname is Sajja
+2020-07-26 23:14:09,809 INFO  [log] email is suresh102@gmail.com
+2020-07-26 23:14:09,809 INFO  [log] password is Secret123
+2020-07-26 23:14:09,810 INFO  [log] confirm is Secret123
+2020-07-26 23:14:09,813 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:10,115 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:10,119 INFO  [log] PASS
+2020-07-26 23:14:10,120 INFO  [log] {"success":1,"error":[],"data":{"id":1404}}
+2020-07-26 23:14:10,127 INFO  [log] 1404
+2020-07-26 23:14:10,989 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:10,994 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:11,008 INFO  [log] FINISHED
+2020-07-26 23:14:11,017 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:11,019 INFO  [log] Ganesh
+2020-07-26 23:14:11,027 INFO  [log] Arumugam
+2020-07-26 23:14:11,028 INFO  [log] ganesh102@gmail.com
+2020-07-26 23:14:11,038 INFO  [log] Secret123
+2020-07-26 23:14:11,039 INFO  [log] Secret123
+2020-07-26 23:14:11,042 INFO  [log] 1234567898
+2020-07-26 23:14:11,052 INFO  [log] firstname is Ganesh
+2020-07-26 23:14:11,055 INFO  [log] lastname is Arumugam
+2020-07-26 23:14:11,061 INFO  [log] email is ganesh102@gmail.com
+2020-07-26 23:14:11,063 INFO  [log] password is Secret123
+2020-07-26 23:14:11,067 INFO  [log] confirm is Secret123
+2020-07-26 23:14:11,068 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:11,386 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:11,387 INFO  [log] PASS
+2020-07-26 23:14:11,390 INFO  [log] {"success":1,"error":[],"data":{"id":1405}}
+2020-07-26 23:14:11,391 INFO  [log] 1405
+2020-07-26 23:14:12,278 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:12,280 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:12,295 INFO  [log] FINISHED
+2020-07-26 23:14:12,304 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:12,573 INFO  [log] The Total number of rows are 10
+2020-07-26 23:14:12,581 INFO  [log] The Total number of columns are 7
+2020-07-26 23:14:12,584 INFO  [log] Gunasekhar 
+2020-07-26 23:14:12,591 INFO  [log] Keserla10
+2020-07-26 23:14:12,591 INFO  [log] gunasekhar100@gmail.com
+2020-07-26 23:14:12,592 INFO  [log] Secret123
+2020-07-26 23:14:12,596 INFO  [log] Secret123
+2020-07-26 23:14:12,604 INFO  [log] 1234567898
+2020-07-26 23:14:12,609 INFO  [log] 100
+2020-07-26 23:14:12,612 INFO  [log] firstname is Gunasekhar 
+2020-07-26 23:14:12,615 INFO  [log] lastname is Keserla10
+2020-07-26 23:14:12,619 INFO  [log] email is gunasekhar100@gmail.com
+2020-07-26 23:14:12,619 INFO  [log] password is Secret123
+2020-07-26 23:14:12,627 INFO  [log] confirm is Secret123
+2020-07-26 23:14:12,638 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:12,640 INFO  [log] reward points are 100
+2020-07-26 23:14:12,957 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:12,959 INFO  [log] PASS
+2020-07-26 23:14:12,968 INFO  [log] {"success":1,"error":[],"data":{"id":1406}}
+2020-07-26 23:14:12,976 INFO  [log] 1406
+2020-07-26 23:14:14,143 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:14,144 INFO  [log] PASS
+2020-07-26 23:14:14,154 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1406,"customer_group_id":1,"firstname":"Gunasekhar ","lastname":"Keserla10","telephone":"1234567898","email":"gunasekhar100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"100","transaction_total":"?0.00"}}
+2020-07-26 23:14:14,174 INFO  [log] 1406
+2020-07-26 23:14:14,175 INFO  [log] 100
+2020-07-26 23:14:14,176 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:14,178 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:14,481 INFO  [log] FINISHED
+2020-07-26 23:14:14,488 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:14,492 INFO  [log] Pranav
+2020-07-26 23:14:14,501 INFO  [log] Keserla
+2020-07-26 23:14:14,503 INFO  [log] pranav100@gmail.com
+2020-07-26 23:14:14,510 INFO  [log] Secret123
+2020-07-26 23:14:14,511 INFO  [log] Secret123
+2020-07-26 23:14:14,521 INFO  [log] 1234567898
+2020-07-26 23:14:14,522 INFO  [log] 200
+2020-07-26 23:14:14,523 INFO  [log] firstname is Pranav
+2020-07-26 23:14:14,524 INFO  [log] lastname is Keserla
+2020-07-26 23:14:14,527 INFO  [log] email is pranav100@gmail.com
+2020-07-26 23:14:14,528 INFO  [log] password is Secret123
+2020-07-26 23:14:14,537 INFO  [log] confirm is Secret123
+2020-07-26 23:14:14,540 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:14,547 INFO  [log] reward points are 200
+2020-07-26 23:14:14,855 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:14,858 INFO  [log] PASS
+2020-07-26 23:14:14,868 INFO  [log] {"success":1,"error":[],"data":{"id":1407}}
+2020-07-26 23:14:14,872 INFO  [log] 1407
+2020-07-26 23:14:15,769 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:15,771 INFO  [log] PASS
+2020-07-26 23:14:15,772 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1407,"customer_group_id":1,"firstname":"Pranav","lastname":"Keserla","telephone":"1234567898","email":"pranav100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"200","transaction_total":"?0.00"}}
+2020-07-26 23:14:15,785 INFO  [log] 1407
+2020-07-26 23:14:15,786 INFO  [log] 200
+2020-07-26 23:14:15,793 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:15,793 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:16,094 INFO  [log] FINISHED
+2020-07-26 23:14:16,105 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:16,106 INFO  [log] Shrivas
+2020-07-26 23:14:16,116 INFO  [log] Keserla
+2020-07-26 23:14:16,118 INFO  [log] shrivas100@gmail.com
+2020-07-26 23:14:16,125 INFO  [log] Secret123
+2020-07-26 23:14:16,126 INFO  [log] Secret123
+2020-07-26 23:14:16,135 INFO  [log] 1234567898
+2020-07-26 23:14:16,138 INFO  [log] 300
+2020-07-26 23:14:16,140 INFO  [log] firstname is Shrivas
+2020-07-26 23:14:16,146 INFO  [log] lastname is Keserla
+2020-07-26 23:14:16,148 INFO  [log] email is shrivas100@gmail.com
+2020-07-26 23:14:16,150 INFO  [log] password is Secret123
+2020-07-26 23:14:16,157 INFO  [log] confirm is Secret123
+2020-07-26 23:14:16,158 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:16,158 INFO  [log] reward points are 300
+2020-07-26 23:14:16,461 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:16,470 INFO  [log] PASS
+2020-07-26 23:14:16,475 INFO  [log] {"success":1,"error":[],"data":{"id":1408}}
+2020-07-26 23:14:16,483 INFO  [log] 1408
+2020-07-26 23:14:17,373 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:17,374 INFO  [log] PASS
+2020-07-26 23:14:17,377 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1408,"customer_group_id":1,"firstname":"Shrivas","lastname":"Keserla","telephone":"1234567898","email":"shrivas100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"300","transaction_total":"?0.00"}}
+2020-07-26 23:14:17,395 INFO  [log] 1408
+2020-07-26 23:14:17,400 INFO  [log] 300
+2020-07-26 23:14:17,401 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:17,408 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:17,717 INFO  [log] FINISHED
+2020-07-26 23:14:17,721 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:17,722 INFO  [log] sk
+2020-07-26 23:14:17,724 INFO  [log] Gaddam
+2020-07-26 23:14:17,737 INFO  [log] gsk100@gmail.com
+2020-07-26 23:14:17,739 INFO  [log] Secret123
+2020-07-26 23:14:17,749 INFO  [log] Secret123
+2020-07-26 23:14:17,751 INFO  [log] 1234567898
+2020-07-26 23:14:17,758 INFO  [log] 400
+2020-07-26 23:14:17,760 INFO  [log] firstname is sk
+2020-07-26 23:14:17,764 INFO  [log] lastname is Gaddam
+2020-07-26 23:14:17,770 INFO  [log] email is gsk100@gmail.com
+2020-07-26 23:14:17,771 INFO  [log] password is Secret123
+2020-07-26 23:14:17,772 INFO  [log] confirm is Secret123
+2020-07-26 23:14:17,774 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:17,784 INFO  [log] reward points are 400
+2020-07-26 23:14:18,087 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:18,087 INFO  [log] PASS
+2020-07-26 23:14:18,089 INFO  [log] {"success":1,"error":[],"data":{"id":1409}}
+2020-07-26 23:14:18,090 INFO  [log] 1409
+2020-07-26 23:14:18,918 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:18,919 INFO  [log] PASS
+2020-07-26 23:14:18,925 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1409,"customer_group_id":1,"firstname":"sk","lastname":"Gaddam","telephone":"1234567898","email":"gsk100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"400","transaction_total":"?0.00"}}
+2020-07-26 23:14:18,938 INFO  [log] 1409
+2020-07-26 23:14:18,944 INFO  [log] 400
+2020-07-26 23:14:18,949 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:18,956 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:19,252 INFO  [log] FINISHED
+2020-07-26 23:14:19,255 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:19,266 INFO  [log] Chandrasekhar
+2020-07-26 23:14:19,266 INFO  [log] Keserla
+2020-07-26 23:14:19,267 INFO  [log] chandrasekhar100@gmail.com
+2020-07-26 23:14:19,274 INFO  [log] Secret123
+2020-07-26 23:14:19,277 INFO  [log] Secret123
+2020-07-26 23:14:19,286 INFO  [log] 1234567898
+2020-07-26 23:14:19,289 INFO  [log] 500
+2020-07-26 23:14:19,290 INFO  [log] firstname is Chandrasekhar
+2020-07-26 23:14:19,299 INFO  [log] lastname is Keserla
+2020-07-26 23:14:19,301 INFO  [log] email is chandrasekhar100@gmail.com
+2020-07-26 23:14:19,308 INFO  [log] password is Secret123
+2020-07-26 23:14:19,308 INFO  [log] confirm is Secret123
+2020-07-26 23:14:19,311 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:19,319 INFO  [log] reward points are 500
+2020-07-26 23:14:19,621 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:19,622 INFO  [log] PASS
+2020-07-26 23:14:19,630 INFO  [log] {"success":1,"error":[],"data":{"id":1410}}
+2020-07-26 23:14:19,634 INFO  [log] 1410
+2020-07-26 23:14:20,474 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:20,476 INFO  [log] PASS
+2020-07-26 23:14:20,481 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1410,"customer_group_id":1,"firstname":"Chandrasekhar","lastname":"Keserla","telephone":"1234567898","email":"chandrasekhar100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"500","transaction_total":"?0.00"}}
+2020-07-26 23:14:20,498 INFO  [log] 1410
+2020-07-26 23:14:20,501 INFO  [log] 500
+2020-07-26 23:14:20,508 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:20,509 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:20,817 INFO  [log] FINISHED
+2020-07-26 23:14:20,819 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:20,820 INFO  [log] Rajasekhar
+2020-07-26 23:14:20,821 INFO  [log] keserla
+2020-07-26 23:14:20,824 INFO  [log] rajasekhar100@gmail.com
+2020-07-26 23:14:20,834 INFO  [log] Secret123
+2020-07-26 23:14:20,836 INFO  [log] Secret123
+2020-07-26 23:14:20,843 INFO  [log] 1234567898
+2020-07-26 23:14:20,844 INFO  [log] 600
+2020-07-26 23:14:20,845 INFO  [log] firstname is Rajasekhar
+2020-07-26 23:14:20,848 INFO  [log] lastname is keserla
+2020-07-26 23:14:20,849 INFO  [log] email is rajasekhar100@gmail.com
+2020-07-26 23:14:20,857 INFO  [log] password is Secret123
+2020-07-26 23:14:20,857 INFO  [log] confirm is Secret123
+2020-07-26 23:14:20,857 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:20,867 INFO  [log] reward points are 600
+2020-07-26 23:14:21,169 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:21,171 INFO  [log] PASS
+2020-07-26 23:14:21,178 INFO  [log] {"success":1,"error":[],"data":{"id":1411}}
+2020-07-26 23:14:21,184 INFO  [log] 1411
+2020-07-26 23:14:22,038 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:22,038 INFO  [log] PASS
+2020-07-26 23:14:22,040 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1411,"customer_group_id":1,"firstname":"Rajasekhar","lastname":"keserla","telephone":"1234567898","email":"rajasekhar100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"600","transaction_total":"?0.00"}}
+2020-07-26 23:14:22,058 INFO  [log] 1411
+2020-07-26 23:14:22,059 INFO  [log] 600
+2020-07-26 23:14:22,070 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:22,070 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:22,923 INFO  [log] FINISHED
+2020-07-26 23:14:22,924 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:22,934 INFO  [log] Vaishnavi
+2020-07-26 23:14:22,937 INFO  [log] Keserla
+2020-07-26 23:14:22,944 INFO  [log] vaishu100@gmail.com
+2020-07-26 23:14:22,945 INFO  [log] Secret123
+2020-07-26 23:14:22,950 INFO  [log] Secret123
+2020-07-26 23:14:22,957 INFO  [log] 1234567898
+2020-07-26 23:14:22,958 INFO  [log] 700
+2020-07-26 23:14:22,961 INFO  [log] firstname is Vaishnavi
+2020-07-26 23:14:22,968 INFO  [log] lastname is Keserla
+2020-07-26 23:14:22,969 INFO  [log] email is vaishu100@gmail.com
+2020-07-26 23:14:22,972 INFO  [log] password is Secret123
+2020-07-26 23:14:22,981 INFO  [log] confirm is Secret123
+2020-07-26 23:14:22,983 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:22,990 INFO  [log] reward points are 700
+2020-07-26 23:14:23,774 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:23,776 INFO  [log] PASS
+2020-07-26 23:14:23,785 INFO  [log] {"success":1,"error":[],"data":{"id":1412}}
+2020-07-26 23:14:23,789 INFO  [log] 1412
+2020-07-26 23:14:24,652 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:24,656 INFO  [log] PASS
+2020-07-26 23:14:24,657 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1412,"customer_group_id":1,"firstname":"Vaishnavi","lastname":"Keserla","telephone":"1234567898","email":"vaishu100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"700","transaction_total":"?0.00"}}
+2020-07-26 23:14:24,676 INFO  [log] 1412
+2020-07-26 23:14:24,686 INFO  [log] 700
+2020-07-26 23:14:24,687 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:24,688 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:25,465 INFO  [log] FINISHED
+2020-07-26 23:14:25,468 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:25,470 INFO  [log] Devarajulu
+2020-07-26 23:14:25,471 INFO  [log] Avula
+2020-07-26 23:14:25,473 INFO  [log] deva100@gmail.com
+2020-07-26 23:14:25,473 INFO  [log] Secret123
+2020-07-26 23:14:25,474 INFO  [log] Secret123
+2020-07-26 23:14:25,485 INFO  [log] 1234567898
+2020-07-26 23:14:25,486 INFO  [log] 800
+2020-07-26 23:14:25,487 INFO  [log] firstname is Devarajulu
+2020-07-26 23:14:25,488 INFO  [log] lastname is Avula
+2020-07-26 23:14:25,491 INFO  [log] email is deva100@gmail.com
+2020-07-26 23:14:25,491 INFO  [log] password is Secret123
+2020-07-26 23:14:25,500 INFO  [log] confirm is Secret123
+2020-07-26 23:14:25,503 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:25,509 INFO  [log] reward points are 800
+2020-07-26 23:14:25,797 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:25,803 INFO  [log] PASS
+2020-07-26 23:14:25,804 INFO  [log] {"success":1,"error":[],"data":{"id":1413}}
+2020-07-26 23:14:25,809 INFO  [log] 1413
+2020-07-26 23:14:26,673 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:26,675 INFO  [log] PASS
+2020-07-26 23:14:26,685 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1413,"customer_group_id":1,"firstname":"Devarajulu","lastname":"Avula","telephone":"1234567898","email":"deva100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"800","transaction_total":"?0.00"}}
+2020-07-26 23:14:26,699 INFO  [log] 1413
+2020-07-26 23:14:26,701 INFO  [log] 800
+2020-07-26 23:14:26,709 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:26,709 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:26,997 INFO  [log] FINISHED
+2020-07-26 23:14:27,002 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:27,003 INFO  [log] Suresh
+2020-07-26 23:14:27,004 INFO  [log] Sajja
+2020-07-26 23:14:27,009 INFO  [log] suresh100@gmail.com
+2020-07-26 23:14:27,018 INFO  [log] Secret123
+2020-07-26 23:14:27,020 INFO  [log] Secret123
+2020-07-26 23:14:27,028 INFO  [log] 1234567898
+2020-07-26 23:14:27,031 INFO  [log] 900
+2020-07-26 23:14:27,032 INFO  [log] firstname is Suresh
+2020-07-26 23:14:27,038 INFO  [log] lastname is Sajja
+2020-07-26 23:14:27,039 INFO  [log] email is suresh100@gmail.com
+2020-07-26 23:14:27,039 INFO  [log] password is Secret123
+2020-07-26 23:14:27,040 INFO  [log] confirm is Secret123
+2020-07-26 23:14:27,051 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:27,053 INFO  [log] reward points are 900
+2020-07-26 23:14:27,358 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:27,368 INFO  [log] PASS
+2020-07-26 23:14:27,374 INFO  [log] {"success":1,"error":[],"data":{"id":1414}}
+2020-07-26 23:14:27,383 INFO  [log] 1414
+2020-07-26 23:14:28,485 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:28,490 INFO  [log] PASS
+2020-07-26 23:14:28,501 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1414,"customer_group_id":1,"firstname":"Suresh","lastname":"Sajja","telephone":"1234567898","email":"suresh100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"900","transaction_total":"?0.00"}}
+2020-07-26 23:14:28,521 INFO  [log] 1414
+2020-07-26 23:14:28,530 INFO  [log] 900
+2020-07-26 23:14:28,534 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:28,540 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:28,833 INFO  [log] FINISHED
+2020-07-26 23:14:28,835 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:28,841 INFO  [log] Ganesh
+2020-07-26 23:14:28,848 INFO  [log] Arumugam
+2020-07-26 23:14:28,849 INFO  [log] ganesh100@gmail.com
+2020-07-26 23:14:28,856 INFO  [log] Secret123
+2020-07-26 23:14:28,860 INFO  [log] Secret123
+2020-07-26 23:14:28,868 INFO  [log] 1234567898
+2020-07-26 23:14:28,871 INFO  [log] 100
+2020-07-26 23:14:28,881 INFO  [log] firstname is Ganesh
+2020-07-26 23:14:28,883 INFO  [log] lastname is Arumugam
+2020-07-26 23:14:28,890 INFO  [log] email is ganesh100@gmail.com
+2020-07-26 23:14:28,895 INFO  [log] password is Secret123
+2020-07-26 23:14:28,901 INFO  [log] confirm is Secret123
+2020-07-26 23:14:28,902 INFO  [log] telephone is 1234567898
+2020-07-26 23:14:28,903 INFO  [log] reward points are 100
+2020-07-26 23:14:29,203 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:29,206 INFO  [log] PASS
+2020-07-26 23:14:29,216 INFO  [log] {"success":1,"error":[],"data":{"id":1415}}
+2020-07-26 23:14:29,219 INFO  [log] 1415
+2020-07-26 23:14:30,077 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:30,080 INFO  [log] PASS
+2020-07-26 23:14:30,084 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1415,"customer_group_id":1,"firstname":"Ganesh","lastname":"Arumugam","telephone":"1234567898","email":"ganesh100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"100","transaction_total":"?0.00"}}
+2020-07-26 23:14:30,089 INFO  [log] 1415
+2020-07-26 23:14:30,101 INFO  [log] 100
+2020-07-26 23:14:30,101 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:30,104 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:30,389 INFO  [log] FINISHED
+2020-07-26 23:14:30,394 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:30,654 INFO  [log] The Total number of rows are 4
+2020-07-26 23:14:30,654 INFO  [log] The Total number of columns are 3
+2020-07-26 23:14:30,657 INFO  [log] Computers & Accessories
+2020-07-26 23:14:30,663 INFO  [log] Computers & Accessories
+2020-07-26 23:14:30,665 INFO  [log] Description of the Computers & Accessories
+2020-07-26 23:14:30,671 INFO  [log] category name is Computers & Accessories
+2020-07-26 23:14:30,671 INFO  [log] meta title is Computers & Accessories
+2020-07-26 23:14:30,681 INFO  [log] description is Description of the Computers & Accessories
+2020-07-26 23:14:30,990 INFO  [log] {"success":1,"error":[],"data":{"id":1655}}
+2020-07-26 23:14:30,992 INFO  [log] 1655
+2020-07-26 23:14:31,298 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:31,303 INFO  [log] PASS
+2020-07-26 23:14:31,309 INFO  [log] {"success":1,"error":[],"data":[{"category_id":1655,"name":"Computers & Accessories","description":"Description of the Computers & Accessories","sort_order":0,"meta_title":"Computers & Accessories","meta_description":"","meta_keyword":"","language_id":1,"status":"1","parent_id":0,"column":1,"top":"0","category_store":["0"],"category_seo_url":[],"category_layout":[],"category_filter":[],"image":"","original_image":"","categories":[]}]}
+2020-07-26 23:14:31,328 INFO  [log] [1655]
+2020-07-26 23:14:31,331 INFO  [log] Category ID Validated Successfully...
+2020-07-26 23:14:31,343 INFO  [log] FINISHED
+2020-07-26 23:14:31,351 INFO  [log] Number of test Step got executed 4
+2020-07-26 23:14:31,354 INFO  [log] Furnitures
+2020-07-26 23:14:31,361 INFO  [log] Furnitures
+2020-07-26 23:14:31,362 INFO  [log] Description of the Furnitures
+2020-07-26 23:14:31,366 INFO  [log] category name is Furnitures
+2020-07-26 23:14:31,372 INFO  [log] meta title is Furnitures
+2020-07-26 23:14:31,373 INFO  [log] description is Description of the Furnitures
+2020-07-26 23:14:31,674 INFO  [log] {"success":1,"error":[],"data":{"id":1656}}
+2020-07-26 23:14:31,674 INFO  [log] 1656
+2020-07-26 23:14:31,964 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:31,965 INFO  [log] PASS
+2020-07-26 23:14:31,967 INFO  [log] {"success":1,"error":[],"data":[{"category_id":1656,"name":"Furnitures","description":"Description of the Furnitures","sort_order":0,"meta_title":"Furnitures","meta_description":"","meta_keyword":"","language_id":1,"status":"1","parent_id":0,"column":1,"top":"0","category_store":["0"],"category_seo_url":[],"category_layout":[],"category_filter":[],"image":"","original_image":"","categories":[]}]}
+2020-07-26 23:14:31,985 INFO  [log] [1656]
+2020-07-26 23:14:31,987 INFO  [log] Category ID Validated Successfully...
+2020-07-26 23:14:32,000 INFO  [log] FINISHED
+2020-07-26 23:14:32,006 INFO  [log] Number of test Step got executed 4
+2020-07-26 23:14:32,007 INFO  [log] Groceries
+2020-07-26 23:14:32,007 INFO  [log] Groceries
+2020-07-26 23:14:32,008 INFO  [log] Description of the Groceries
+2020-07-26 23:14:32,013 INFO  [log] category name is Groceries
+2020-07-26 23:14:32,019 INFO  [log] meta title is Groceries
+2020-07-26 23:14:32,020 INFO  [log] description is Description of the Groceries
+2020-07-26 23:14:32,315 INFO  [log] {"success":1,"error":[],"data":{"id":1657}}
+2020-07-26 23:14:32,318 INFO  [log] 1657
+2020-07-26 23:14:32,601 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:32,601 INFO  [log] PASS
+2020-07-26 23:14:32,603 INFO  [log] {"success":1,"error":[],"data":[{"category_id":1657,"name":"Groceries","description":"Description of the Groceries","sort_order":0,"meta_title":"Groceries","meta_description":"","meta_keyword":"","language_id":1,"status":"1","parent_id":0,"column":1,"top":"0","category_store":["0"],"category_seo_url":[],"category_layout":[],"category_filter":[],"image":"","original_image":"","categories":[]}]}
+2020-07-26 23:14:32,614 INFO  [log] [1657]
+2020-07-26 23:14:32,621 INFO  [log] Category ID Validated Successfully...
+2020-07-26 23:14:32,636 INFO  [log] FINISHED
+2020-07-26 23:14:32,646 INFO  [log] Number of test Step got executed 4
+2020-07-26 23:14:32,648 INFO  [log] Food & Breweries
+2020-07-26 23:14:32,655 INFO  [log] Food & Breweries
+2020-07-26 23:14:32,656 INFO  [log] Description of the Food & Breweries
+2020-07-26 23:14:32,667 INFO  [log] category name is Food & Breweries
+2020-07-26 23:14:32,670 INFO  [log] meta title is Food & Breweries
+2020-07-26 23:14:32,679 INFO  [log] description is Description of the Food & Breweries
+2020-07-26 23:14:32,992 INFO  [log] {"success":1,"error":[],"data":{"id":1658}}
+2020-07-26 23:14:33,001 INFO  [log] 1658
+2020-07-26 23:14:33,297 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:33,301 INFO  [log] PASS
+2020-07-26 23:14:33,304 INFO  [log] {"success":1,"error":[],"data":[{"category_id":1658,"name":"Food & Breweries","description":"Description of the Food & Breweries","sort_order":0,"meta_title":"Food & Breweries","meta_description":"","meta_keyword":"","language_id":1,"status":"1","parent_id":0,"column":1,"top":"0","category_store":["0"],"category_seo_url":[],"category_layout":[],"category_filter":[],"image":"","original_image":"","categories":[]}]}
+2020-07-26 23:14:33,317 INFO  [log] [1658]
+2020-07-26 23:14:33,320 INFO  [log] Category ID Validated Successfully...
+2020-07-26 23:14:33,333 INFO  [log] FINISHED
+2020-07-26 23:14:33,340 INFO  [log] Number of test Step got executed 4
+2020-07-26 23:14:33,396 INFO  [log] f442be06378a36966e2f5bdeabd9ccaded492182
+2020-07-26 23:14:33,683 INFO  [log] The user name values Are upskills_admin
+2020-07-26 23:14:33,683 INFO  [log] The password values Are Talent4$$
+2020-07-26 23:14:33,983 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:33,984 INFO  [log] Response Code: 200 => PASSED
+2020-07-26 23:14:33,990 INFO  [log] {"success":1,"error":[],"data":{"user_id":"1","user_group_id":"1","username":"upskills_admin","firstname":"John","lastname":"Doe","email":"probitstechnologies@gmail.com","image":"","ip":"49.206.11.18","status":"1","date_added":"2019-11-11 07:59:33","user_group":"Administrator"}}
+2020-07-26 23:14:34,006 INFO  [log] upskills_admin
+2020-07-26 23:14:34,616 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:34,617 INFO  [log] PASS
+2020-07-26 23:14:34,631 INFO  [log] FINISHED
+2020-07-26 23:14:34,638 INFO  [log] Number of test Step got executed 4
+2020-07-26 23:14:34,700 INFO  [log] f442be06378a36966e2f5bdeabd9ccaded492182
+2020-07-26 23:14:34,717 INFO  [log] The firstname values Are Rajkumar
+2020-07-26 23:14:34,718 INFO  [log] The lastname values Are Dr
+2020-07-26 23:14:34,719 INFO  [log] The email values Are rajkumar100@gmail.com
+2020-07-26 23:14:34,720 INFO  [log] The password values Are raju
+2020-07-26 23:14:34,728 INFO  [log] The confirm values Are raju
+2020-07-26 23:14:34,729 INFO  [log] The telephone values Are 1234567891
+2020-07-26 23:14:35,024 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:35,025 INFO  [log] PASS
+2020-07-26 23:14:35,028 INFO  [log] {"success":1,"error":[],"data":{"id":1416}}
+2020-07-26 23:14:35,032 INFO  [log] 1416
+2020-07-26 23:14:35,862 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:35,866 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:35,880 INFO  [log] FINISHED
+2020-07-26 23:14:35,881 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:35,887 INFO  [log] The firstname values Are vishnuvardhan
+2020-07-26 23:14:35,888 INFO  [log] The lastname values Are Dr
+2020-07-26 23:14:35,898 INFO  [log] The email values Are vishnu100@gmail.com
+2020-07-26 23:14:35,899 INFO  [log] The password values Are vishnu
+2020-07-26 23:14:35,902 INFO  [log] The confirm values Are vishnu
+2020-07-26 23:14:35,909 INFO  [log] The telephone values Are 1234567891
+2020-07-26 23:14:36,212 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:36,220 INFO  [log] PASS
+2020-07-26 23:14:36,220 INFO  [log] {"success":1,"error":[],"data":{"id":1417}}
+2020-07-26 23:14:36,229 INFO  [log] 1417
+2020-07-26 23:14:37,073 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:37,074 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:37,077 INFO  [log] FINISHED
+2020-07-26 23:14:37,078 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:37,079 INFO  [log] The firstname values Are Sudeep
+2020-07-26 23:14:37,082 INFO  [log] The lastname values Are kitcha
+2020-07-26 23:14:37,083 INFO  [log] The email values Are Sudeep100@gmail.com
+2020-07-26 23:14:37,089 INFO  [log] The password values Are sudeep
+2020-07-26 23:14:37,089 INFO  [log] The confirm values Are sudeep
+2020-07-26 23:14:37,090 INFO  [log] The telephone values Are 1234567891
+2020-07-26 23:14:37,380 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:37,381 INFO  [log] PASS
+2020-07-26 23:14:37,382 INFO  [log] {"success":1,"error":[],"data":{"id":1418}}
+2020-07-26 23:14:37,389 INFO  [log] 1418
+2020-07-26 23:14:38,231 INFO  [log] HTTP status code: 404
+2020-07-26 23:14:38,237 INFO  [log] Expected NOT FOUND Error - PASS
+2020-07-26 23:14:38,264 INFO  [log] FINISHED
+2020-07-26 23:14:38,264 INFO  [log] Number of test Step got executed 5
+2020-07-26 23:14:38,322 INFO  [log] f442be06378a36966e2f5bdeabd9ccaded492182
+2020-07-26 23:14:38,335 INFO  [log] The firstname values Are Rajkumar
+2020-07-26 23:14:38,336 INFO  [log] The lastname values Are Dr
+2020-07-26 23:14:38,336 INFO  [log] The email values Are rajkumar100@gmail.com
+2020-07-26 23:14:38,337 INFO  [log] The password values Are raju
+2020-07-26 23:14:38,338 INFO  [log] The confirm values Are raju
+2020-07-26 23:14:38,338 INFO  [log] The telephone values Are 1234567891
+2020-07-26 23:14:38,339 INFO  [log] The rewards values Are 300
+2020-07-26 23:14:38,605 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:38,606 INFO  [log] PASS
+2020-07-26 23:14:38,607 INFO  [log] {"success":1,"error":[],"data":{"id":1419}}
+2020-07-26 23:14:38,610 INFO  [log] 1419
+2020-07-26 23:14:39,384 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:39,384 INFO  [log] PASS
+2020-07-26 23:14:39,385 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1419,"customer_group_id":1,"firstname":"Rajkumar","lastname":"Dr","telephone":"1234567891","email":"rajkumar100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"300","transaction_total":"?0.00"}}
+2020-07-26 23:14:39,387 INFO  [log] 1419
+2020-07-26 23:14:39,387 INFO  [log] 300
+2020-07-26 23:14:39,388 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:39,388 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:39,666 INFO  [log] FINISHED
+2020-07-26 23:14:39,667 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:39,674 INFO  [log] The firstname values Are vishnuvardhan
+2020-07-26 23:14:39,678 INFO  [log] The lastname values Are Dr
+2020-07-26 23:14:39,679 INFO  [log] The email values Are vishnu100@gmail.com
+2020-07-26 23:14:39,686 INFO  [log] The password values Are vishnu
+2020-07-26 23:14:39,686 INFO  [log] The confirm values Are vishnu
+2020-07-26 23:14:39,687 INFO  [log] The telephone values Are 1234567891
+2020-07-26 23:14:39,698 INFO  [log] The rewards values Are 500
+2020-07-26 23:14:39,985 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:39,986 INFO  [log] PASS
+2020-07-26 23:14:39,995 INFO  [log] {"success":1,"error":[],"data":{"id":1420}}
+2020-07-26 23:14:39,998 INFO  [log] 1420
+2020-07-26 23:14:40,848 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:40,849 INFO  [log] PASS
+2020-07-26 23:14:40,850 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1420,"customer_group_id":1,"firstname":"vishnuvardhan","lastname":"Dr","telephone":"1234567891","email":"vishnu100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"500","transaction_total":"?0.00"}}
+2020-07-26 23:14:40,869 INFO  [log] 1420
+2020-07-26 23:14:40,870 INFO  [log] 500
+2020-07-26 23:14:40,880 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:40,881 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:41,162 INFO  [log] FINISHED
+2020-07-26 23:14:41,164 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:41,172 INFO  [log] The firstname values Are Sudeep
+2020-07-26 23:14:41,179 INFO  [log] The lastname values Are kitcha
+2020-07-26 23:14:41,181 INFO  [log] The email values Are Sudeep100@gmail.com
+2020-07-26 23:14:41,188 INFO  [log] The password values Are sudeep
+2020-07-26 23:14:41,189 INFO  [log] The confirm values Are sudeep
+2020-07-26 23:14:41,190 INFO  [log] The telephone values Are 1234567891
+2020-07-26 23:14:41,194 INFO  [log] The rewards values Are 700
+2020-07-26 23:14:41,482 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:41,486 INFO  [log] PASS
+2020-07-26 23:14:41,491 INFO  [log] {"success":1,"error":[],"data":{"id":1421}}
+2020-07-26 23:14:41,499 INFO  [log] 1421
+2020-07-26 23:14:42,346 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:42,349 INFO  [log] PASS
+2020-07-26 23:14:42,350 INFO  [log] {"success":1,"error":[],"data":{"store_id":0,"customer_id":1421,"customer_group_id":1,"firstname":"Sudeep","lastname":"kitcha","telephone":"1234567891","email":"Sudeep100@gmail.com","newsletter":0,"status":1,"approved":"","safe":0,"date_added":"26\/07\/2020","addresses":[],"affiliate":[],"account_custom_field":[],"custom_fields":[],"reward_points":"700","transaction_total":"?0.00"}}
+2020-07-26 23:14:42,366 INFO  [log] 1421
+2020-07-26 23:14:42,366 INFO  [log] 700
+2020-07-26 23:14:42,367 INFO  [log] Customer ID Validated Successfully...
+2020-07-26 23:14:42,368 INFO  [log] Customer reward points Validated Successfully...
+2020-07-26 23:14:42,640 INFO  [log] FINISHED
+2020-07-26 23:14:42,642 INFO  [log] Number of test Step got executed 7
+2020-07-26 23:14:42,670 INFO  [log] f442be06378a36966e2f5bdeabd9ccaded492182
+2020-07-26 23:14:42,685 INFO  [log] The category name values Are Clothes
+2020-07-26 23:14:42,686 INFO  [log] The meta_title values Are Clothes
+2020-07-26 23:14:42,686 INFO  [log] The description values Are Dress Material
+2020-07-26 23:14:42,968 INFO  [log] {"success":1,"error":[],"data":{"id":1659}}
+2020-07-26 23:14:42,970 INFO  [log] 1659
+2020-07-26 23:14:43,269 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:43,273 INFO  [log] PASS
+2020-07-26 23:14:43,282 INFO  [log] {"success":1,"error":[],"data":[{"category_id":1659,"name":"Clothes","description":"Dress Material","sort_order":0,"meta_title":"Clothes","meta_description":"","meta_keyword":"","language_id":1,"status":"1","parent_id":0,"column":1,"top":"0","category_store":["0"],"category_seo_url":[],"category_layout":[],"category_filter":[],"image":"","original_image":"","categories":[]}]}
+2020-07-26 23:14:43,302 INFO  [log] [1659]
+2020-07-26 23:14:43,304 INFO  [log] Category ID Validated Successfully...
+2020-07-26 23:14:43,315 INFO  [log] FINISHED
+2020-07-26 23:14:43,317 INFO  [log] Number of test Step got executed 4
+2020-07-26 23:14:43,329 INFO  [log] The category name values Are Motor Vehicles
+2020-07-26 23:14:43,331 INFO  [log] The meta_title values Are Motor Vehicles
+2020-07-26 23:14:43,335 INFO  [log] The description values Are Automobiles
+2020-07-26 23:14:43,643 INFO  [log] {"success":1,"error":[],"data":{"id":1660}}
+2020-07-26 23:14:43,647 INFO  [log] 1660
+2020-07-26 23:14:43,950 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:43,954 INFO  [log] PASS
+2020-07-26 23:14:43,957 INFO  [log] {"success":1,"error":[],"data":[{"category_id":1660,"name":"Motor Vehicles","description":"Automobiles","sort_order":0,"meta_title":"Motor Vehicles","meta_description":"","meta_keyword":"","language_id":1,"status":"1","parent_id":0,"column":1,"top":"0","category_store":["0"],"category_seo_url":[],"category_layout":[],"category_filter":[],"image":"","original_image":"","categories":[]}]}
+2020-07-26 23:14:43,972 INFO  [log] [1660]
+2020-07-26 23:14:43,973 INFO  [log] Category ID Validated Successfully...
+2020-07-26 23:14:43,986 INFO  [log] FINISHED
+2020-07-26 23:14:43,986 INFO  [log] Number of test Step got executed 4
+2020-07-26 23:14:43,987 INFO  [log] The category name values Are Electronics
+2020-07-26 23:14:43,998 INFO  [log] The meta_title values Are Electronics
+2020-07-26 23:14:44,001 INFO  [log] The description values Are Electronic Goods
+2020-07-26 23:14:44,304 INFO  [log] {"success":1,"error":[],"data":{"id":1661}}
+2020-07-26 23:14:44,313 INFO  [log] 1661
+2020-07-26 23:14:44,602 INFO  [log] HTTP status code: 200
+2020-07-26 23:14:44,604 INFO  [log] PASS
+2020-07-26 23:14:44,611 INFO  [log] {"success":1,"error":[],"data":[{"category_id":1661,"name":"Electronics","description":"Electronic Goods","sort_order":0,"meta_title":"Electronics","meta_description":"","meta_keyword":"","language_id":1,"status":"1","parent_id":0,"column":1,"top":"0","category_store":["0"],"category_seo_url":[],"category_layout":[],"category_filter":[],"image":"","original_image":"","categories":[]}]}
+2020-07-26 23:14:44,625 INFO  [log] [1661]
+2020-07-26 23:14:44,629 INFO  [log] Category ID Validated Successfully...
+2020-07-26 23:14:44,644 INFO  [log] FINISHED
+2020-07-26 23:14:44,648 INFO  [log] Number of test Step got executed 4
